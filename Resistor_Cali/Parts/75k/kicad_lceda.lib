@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ERA3AEB753V
+#
+DEF ERA3AEB753V R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "ERA3AEB753V" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_479693.html" 0 -250 50 H I C CNN
+F4 "C473254" 0 -450 50 H I C CNN "SuppliersPartNumber"
+F5 "std:c8b3ad9dc65c4cfda4ae658406c3082b" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 2 2 200 0 100 L 50 50 1 1 I 
+X 1 1 -200 0 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

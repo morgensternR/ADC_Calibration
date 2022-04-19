@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RT0603BRE07140KL
+#
+DEF RT0603BRE07140KL R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "RT0603BRE07140KL" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_306855.html" 0 -260 50 H I C CNN
+F4 "C326761" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:4c6dc6c8265e4d6080c1163b45c2bbf2" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 2 2 200 0 100 L 50 50 1 1 I 
+X 1 1 -200 0 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

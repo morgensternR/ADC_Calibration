@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ARG05BTC1002
+#
+DEF ARG05BTC1002 R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "ARG05BTC1002" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_395096.html" 0 -250 50 H I C CNN
+F4 "C406725" 0 -450 50 H I C CNN "SuppliersPartNumber"
+F5 "std:025b9e141adc420eb8182bfdec58d27b" 0 -450 50 H I C CNN "uuid"
+DRAW
+X 1 1 -200 0 100 R 50 50 1 1 I 
+X 2 2 200 0 100 L 50 50 1 1 I 
+S -100 50 100 -50 1 1 6 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

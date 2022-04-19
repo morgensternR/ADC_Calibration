@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AR03BTCX1002
+#
+DEF AR03BTCX1002 R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "AR03BTCX1002" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_301009.html" 0 -260 50 H I C CNN
+F4 "C319939" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:5e780addd4304bfdbbc40e0dc6267ad5" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 2 2 200 0 100 L 50 50 1 1 I 
+X 1 1 -200 0 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library
