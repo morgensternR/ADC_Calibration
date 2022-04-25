@@ -36,7 +36,7 @@ F 3 "~" H 6450 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 0My_Library:100K_0.1% R?
+L Resistor_Cali-rescue:100K_0.1%-0My_Library R?
 U 1 1 62602404
 P 2100 2250
 F 0 "R?" V 2054 2328 50  0000 L CNN
@@ -49,7 +49,7 @@ F 5 "std:944bb200a93041b7ab2acc321d63dff2" H 2100 1800 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:110K_0.1% R?
+L Resistor_Cali-rescue:110K_0.1%-0My_Library R?
 U 1 1 626031BA
 P 3200 2200
 F 0 "R?" V 3154 2268 50  0000 L CNN
@@ -62,7 +62,7 @@ F 5 "std:b7aa59c4c6f4436c81381eb8dfbbd1e3" H 3200 1740 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 6260622D
 P 2300 1500
 F 0 "U?" V 2254 1828 50  0000 L CNN
@@ -75,7 +75,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 2300 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 6260B48E
 P 3400 1500
 F 0 "U?" V 3354 1828 50  0000 L CNN
@@ -90,32 +90,32 @@ $EndComp
 $Comp
 L Connector:DB9_Female J?
 U 1 1 6260D163
-P 1200 2900
-F 0 "J?" H 1118 2208 50  0000 C CNN
-F 1 "DB9_Female" H 1118 2299 50  0000 C CNN
-F 2 "" H 1200 2900 50  0001 C CNN
-F 3 " ~" H 1200 2900 50  0001 C CNN
-F 4 "C75749" H 1200 2900 50  0001 C CNN "LCSC"
-	1    1200 2900
+P 800 3150
+F 0 "J?" H 718 2458 50  0000 C CNN
+F 1 "DB9_Female" H 718 2549 50  0000 C CNN
+F 2 "" H 800 3150 50  0001 C CNN
+F 3 " ~" H 800 3150 50  0001 C CNN
+F 4 "C75749" H 800 3150 50  0001 C CNN "LCSC"
+	1    800  3150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2500 1750 2500
+	1100 2750 1350 2750
 Wire Wire Line
-	1500 2600 1750 2600
+	1100 2850 1350 2850
 Wire Wire Line
-	1500 2700 1750 2700
+	1100 2950 1350 2950
 Wire Wire Line
-	1500 2800 1750 2800
+	1100 3050 1350 3050
 $Comp
 L power:GND #PWR?
 U 1 1 62615F19
-P 1500 2900
-F 0 "#PWR?" H 1500 2650 50  0001 C CNN
-F 1 "GND" V 1505 2772 50  0000 R CNN
-F 2 "" H 1500 2900 50  0001 C CNN
-F 3 "" H 1500 2900 50  0001 C CNN
-	1    1500 2900
+P 1100 3150
+F 0 "#PWR?" H 1100 2900 50  0001 C CNN
+F 1 "GND" V 1105 3022 50  0000 R CNN
+F 2 "" H 1100 3150 50  0001 C CNN
+F 3 "" H 1100 3150 50  0001 C CNN
+	1    1100 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -140,17 +140,13 @@ F 3 "" H 3200 1000 50  0001 C CNN
 	1    3200 1000
 	0    1    1    0   
 $EndComp
-Text Label 1750 2500 0    50   ~ 0
-I+
-Text Label 1100 2550 0    50   ~ 0
+Text Label 1350 2850 0    50   ~ 0
 V+
-Text Label 1750 2700 0    50   ~ 0
-I-
-Text Label 1750 2800 0    50   ~ 0
+Text Label 1350 3050 0    50   ~ 0
 V-
-NoConn ~ 1500 3000
-NoConn ~ 1500 3100
-NoConn ~ 1500 3200
+NoConn ~ 1100 3250
+NoConn ~ 1100 3350
+NoConn ~ 1100 3450
 NoConn ~ 1500 3300
 Wire Wire Line
 	2100 2000 2100 2050
@@ -159,7 +155,6 @@ Wire Wire Line
 	2100 2450 1850 2450
 Wire Wire Line
 	2100 2450 2100 2550
-Connection ~ 2100 2450
 Wire Wire Line
 	1850 2050 2100 2050
 Text Label 1850 2050 0    50   ~ 0
@@ -171,7 +166,7 @@ I+
 Text Label 2100 2550 0    50   ~ 0
 I-
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 6261FEFE
 P 4700 1500
 F 0 "U?" V 4654 1828 50  0000 L CNN
@@ -184,7 +179,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 4700 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 62625B8A
 P 5850 1500
 F 0 "U?" V 5804 1828 50  0000 L CNN
@@ -197,7 +192,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 5850 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 62626F34
 P 6900 1500
 F 0 "U?" V 6854 1828 50  0000 L CNN
@@ -210,7 +205,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 6900 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 626281B2
 P 8000 1500
 F 0 "U?" V 7954 1828 50  0000 L CNN
@@ -223,7 +218,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 8000 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 62629EB9
 P 9150 1500
 F 0 "U?" V 9104 1828 50  0000 L CNN
@@ -236,7 +231,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 9150 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 6262AB1E
 P 10250 1500
 F 0 "U?" V 10204 1828 50  0000 L CNN
@@ -249,7 +244,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 10250 1308 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:120K_0.1% R?
+L Resistor_Cali-rescue:120K_0.1%-0My_Library R?
 U 1 1 6263C8D6
 P 4500 2200
 F 0 "R?" V 4454 2268 50  0000 L CNN
@@ -262,7 +257,7 @@ F 5 "std:bf0bb0bc9e564a8cab5b304b9d6f45e8" H 4500 1740 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 6263F9C0
 P 2500 800
 F 0 "R?" V 2454 868 50  0000 L CNN
@@ -275,7 +270,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 2500 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 62640D00
 P 3600 800
 F 0 "R?" V 3554 868 50  0000 L CNN
@@ -288,7 +283,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 3600 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 6264118F
 P 4900 800
 F 0 "R?" V 4854 868 50  0000 L CNN
@@ -301,7 +296,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 4900 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 626415F5
 P 6050 800
 F 0 "R?" V 6004 868 50  0000 L CNN
@@ -314,7 +309,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 6050 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 62641A26
 P 7100 800
 F 0 "R?" V 7054 868 50  0000 L CNN
@@ -327,7 +322,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 7100 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 626427B4
 P 8200 800
 F 0 "R?" V 8154 868 50  0000 L CNN
@@ -340,7 +335,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 8200 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:130K_0.1% R?
+L Resistor_Cali-rescue:130K_0.1%-0My_Library R?
 U 1 1 62642D75
 P 5650 2200
 F 0 "R?" V 5604 2278 50  0000 L CNN
@@ -353,7 +348,7 @@ F 5 "std:8a79ba3353ca48fba8ec34ae9c0624fb" H 5650 1750 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:140K_0.1% R?
+L Resistor_Cali-rescue:140K_0.1%-0My_Library R?
 U 1 1 626439B0
 P 6700 2200
 F 0 "R?" V 6654 2268 50  0000 L CNN
@@ -366,7 +361,7 @@ F 5 "std:4c6dc6c8265e4d6080c1163b45c2bbf2" H 6700 1740 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:150K_0.1% R?
+L Resistor_Cali-rescue:150K_0.1%-0My_Library R?
 U 1 1 62644760
 P 7800 2200
 F 0 "R?" V 7754 2278 50  0000 L CNN
@@ -379,7 +374,7 @@ F 5 "std:2116e11561c14358a5a0ff85c2041b13" H 7800 1750 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:160K_0.1% R?
+L Resistor_Cali-rescue:160K_0.1%-0My_Library R?
 U 1 1 626456B0
 P 8950 2200
 F 0 "R?" V 8904 2278 50  0000 L CNN
@@ -392,7 +387,7 @@ F 5 "std:d1fbc051cb8e47879babc53104c73a9f" H 8950 1750 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:180K_0.1% R?
+L Resistor_Cali-rescue:180K_0.1%-0My_Library R?
 U 1 1 62646B04
 P 10050 2200
 F 0 "R?" V 10004 2278 50  0000 L CNN
@@ -405,7 +400,7 @@ F 5 "std:5ba184fc8b2148d59e4b3448668be11b" H 10050 1750 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:200K_0.1% R?
+L Resistor_Cali-rescue:200K_0.1%-0My_Library R?
 U 1 1 626478D6
 P 10050 4250
 F 0 "R?" V 10004 4328 50  0000 L CNN
@@ -418,7 +413,7 @@ F 5 "std:cbb0cb6b72c9414aadb5fd45e82163ed" H 10050 3800 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:KAQY212S U?
+L Resistor_Cali-rescue:KAQY212S-0My_Library U?
 U 1 1 6264B9E6
 P 10250 3550
 F 0 "U?" V 10204 3878 50  0000 L CNN
@@ -431,7 +426,7 @@ F 5 "std:319a841c663046d483dd8a82198b1b87" H 10250 3358 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 6264B9EE
 P 10450 2850
 F 0 "R?" V 10404 2918 50  0000 L CNN
@@ -444,7 +439,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 10450 2390 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 6264C25C
 P 10450 800
 F 0 "R?" V 10404 868 50  0000 L CNN
@@ -457,7 +452,7 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 10450 340 50  0001 C CNN "uuid"
 	0    1    1    0   
 $EndComp
 $Comp
-L 0My_Library:1K_1% R?
+L Resistor_Cali-rescue:1K_1%-0My_Library R?
 U 1 1 6264C720
 P 9350 800
 F 0 "R?" V 9304 868 50  0000 L CNN
@@ -469,4 +464,82 @@ F 5 "std:1c3f73d3ef6c482c84cce0f8d04da761" H 9350 340 50  0001 C CNN "uuid"
 	1    9350 800 
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	600  5950 600  7750
+Wire Notes Line
+	600  7750 3450 7750
+Wire Notes Line
+	3450 5950 600  5950
+Wire Notes Line
+	3450 5950 3450 7750
+Text Notes 1500 6050 0    50   ~ 0
+2.5V Source to 10 uA\n
+$Comp
+L 0_My_Lib:CL10B474KA8NNNC C?
+U 1 1 62675DD8
+P 1600 7600
+F 0 "C?" H 1600 7355 50  0000 C CNN
+F 1 "470nF" H 1600 7446 50  0000 C CNN
+F 2 "kicad_lceda:C0603" H 1600 7580 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_1975.html" H 1600 7380 50  0001 C CNN
+F 4 "C1623" H 1600 7180 50  0001 C CNN "LCSC"
+F 5 "std:b9126dca6316fd5ce40a4f870ab302ac" H 1600 7180 50  0001 C CNN "uuid"
+	1    1600 7600
+	1    0    0    1   
+$EndComp
+$Comp
+L 0_My_Lib:REF3025AIDBZR U?
+U 1 1 62678AA9
+P 2050 7100
+F 0 "U?" H 2050 7465 50  0000 C CNN
+F 1 "REF3025AIDBZR" H 2050 7374 50  0000 C CNN
+F 2 "kicad_lceda:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR" H 2050 7200 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_11887.html" H 2050 7000 50  0001 C CNN
+F 4 "C11334" H 2050 6800 50  0001 C CNN "LCSC"
+F 5 "std:4af85dda741faa60d87c85486a4e536b" H 2050 6800 50  0001 C CNN "uuid"
+	1    2050 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 7000 1450 7000
+Wire Wire Line
+	1450 7000 1450 7600
+Wire Wire Line
+	1750 7600 2550 7600
+Wire Wire Line
+	2550 7600 2550 7200
+$Comp
+L power:GND #PWR?
+U 1 1 6267E0A8
+P 2550 7200
+F 0 "#PWR?" H 2550 6950 50  0001 C CNN
+F 1 "GND" V 2555 7072 50  0000 R CNN
+F 2 "" H 2550 7200 50  0001 C CNN
+F 3 "" H 2550 7200 50  0001 C CNN
+	1    2550 7200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2550 7200
+Text Label 2550 7000 0    50   ~ 0
+2.5V
+Text Label 1450 7000 0    50   ~ 0
+VCC
+$Comp
+L 0_My_Lib:250K_0.1% R?
+U 1 1 626810B4
+P 1750 6450
+F 0 "R?" H 1750 6655 50  0000 C CNN
+F 1 "250K_0.1%" H 1750 6564 50  0000 C CNN
+F 2 "kicad_lceda:R1206" H 1750 6390 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_346873.html" H 1750 6190 50  0001 C CNN
+F 4 "C374782" H 1750 5990 50  0001 C CNN "SuppliersPartNumber"
+F 5 "std:cb5ced8bd30f43ce8de2fd2eca084dc1" H 1750 5990 50  0001 C CNN "uuid"
+	1    1750 6450
+	1    0    0    -1  
+$EndComp
+Text Label 1550 6450 2    50   ~ 0
+2.5V
+Text Label 1950 6450 0    50   ~ 0
+I+
+Connection ~ 2100 2450
 $EndSCHEMATC

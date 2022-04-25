@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Resistor_Cali-rescue)(type Legacy)(uri ${KIPRJMOD}/Resistor_Cali-rescue.lib)(options "")(descr ""))
+)

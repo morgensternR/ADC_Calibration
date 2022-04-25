@@ -1,31 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 0My_Library_100K_0.1%
+# 0_My_Lib_250K_0.1%
 #
-DEF 0My_Library_100K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_100K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C335088" 0 -450 50 H I C CNN "SuppliersPartNumber"
-F5 "std:944bb200a93041b7ab2acc321d63dff2" 0 -450 50 H I C CNN "uuid"
-DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_110K_0.1%
-#
-DEF 0My_Library_110K_0.1% R 0 40 N N 1 F N
+DEF 0_My_Lib_250K_0.1% R 0 40 N N 1 F N
 F0 "R" 0 140 50 H V C CNN
-F1 "0My_Library_110K_0.1%" 0 340 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
-F3 "http://www.szlcsc.com/product/details_306830.html" 0 -260 50 H I C CNN
-F4 "C326736" 0 -460 50 H I C CNN "SuppliersPartNumber"
-F5 "std:b7aa59c4c6f4436c81381eb8dfbbd1e3" 0 -460 50 H I C CNN "uuid"
+F1 "0_My_Lib_250K_0.1%" 0 340 50 H V C CNN
+F2 "kicad_lceda:R1206" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_346873.html" 0 -260 50 H I C CNN
+F4 "C374782" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:cb5ced8bd30f43ce8de2fd2eca084dc1" 0 -460 50 H I C CNN "uuid"
 DRAW
 S -100 40 100 -40 1 1 6 N
 X 1 1 -200 0 100 R 50 50 1 1 I
@@ -33,179 +17,39 @@ X 2 2 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 0My_Library_120K_0.1%
+# 0_My_Lib_CL10B474KA8NNNC
 #
-DEF 0My_Library_120K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 140 50 H V C CNN
-F1 "0My_Library_120K_0.1%" 0 340 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
-F3 "" 0 -260 50 H I C CNN
-F4 "C136959" 0 -460 50 H I C CNN "LCSC"
-F5 "std:bf0bb0bc9e564a8cab5b304b9d6f45e8" 0 -460 50 H I C CNN "uuid"
+DEF 0_My_Lib_CL10B474KA8NNNC C 0 40 N N 1 F N
+F0 "C" 0 180 50 H V C CNN
+F1 "0_My_Lib_CL10B474KA8NNNC" 0 380 50 H V C CNN
+F2 "kicad_lceda:C0603" 0 -20 50 H I C CNN
+F3 "" 0 -220 50 H I C CNN
+F4 "C1623" 0 -420 50 H I C CNN "LCSC"
+F5 "std:b9126dca6316fd5ce40a4f870ab302ac" 0 -420 50 H I C CNN "uuid"
 DRAW
-S -100 40 100 -40 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -20 80 -20 -80 N
+P 2 1 1 6 20 0 50 0 N
+P 2 1 1 6 20 80 20 -80 N
+X 1 1 -150 0 100 R 50 50 1 1 I
+X 2 2 150 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 0My_Library_130K_0.1%
+# 0_My_Lib_REF3025AIDBZR
 #
-DEF 0My_Library_130K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_130K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C705808" 0 -450 50 H I C CNN "LCSC"
-F5 "std:8a79ba3353ca48fba8ec34ae9c0624fb" 0 -450 50 H I C CNN "uuid"
+DEF 0_My_Lib_REF3025AIDBZR U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "0_My_Lib_REF3025AIDBZR" 0 500 50 H V C CNN
+F2 "kicad_lceda:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR" 0 100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+F4 "C11334" 0 -300 50 H I C CNN "LCSC"
+F5 "std:4af85dda741faa60d87c85486a4e536b" 0 -300 50 H I C CNN "uuid"
 DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_140K_0.1%
-#
-DEF 0My_Library_140K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 140 50 H V C CNN
-F1 "0My_Library_140K_0.1%" 0 340 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
-F3 "" 0 -260 50 H I C CNN
-F4 "C326761" 0 -460 50 H I C CNN "LCSC"
-F5 "std:4c6dc6c8265e4d6080c1163b45c2bbf2" 0 -460 50 H I C CNN "uuid"
-DRAW
-S -100 40 100 -40 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_150K_0.1%
-#
-DEF 0My_Library_150K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_150K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C413715" 0 -450 50 H I C CNN "LCSC"
-F5 "std:2116e11561c14358a5a0ff85c2041b13" 0 -450 50 H I C CNN "uuid"
-DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_160K_0.1%
-#
-DEF 0My_Library_160K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_160K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C473318" 0 -450 50 H I C CNN "LCSC"
-F5 "std:d1fbc051cb8e47879babc53104c73a9f" 0 -450 50 H I C CNN "uuid"
-DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_180K_0.1%
-#
-DEF 0My_Library_180K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_180K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C473319" 0 -450 50 H I C CNN "LCSC"
-F5 "std:5ba184fc8b2148d59e4b3448668be11b" 0 -450 50 H I C CNN "uuid"
-DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_1K_1%
-#
-DEF 0My_Library_1K_1% R 0 40 N N 1 F N
-F0 "R" 0 140 50 H V C CNN
-F1 "0My_Library_1K_1%" 0 340 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
-F3 "http://www.szlcsc.com/product/details_308242.html" 0 -260 50 H I C CNN
-F4 "C328340" 0 -460 50 H I C CNN "SuppliersPartNumber"
-F5 "std:1c3f73d3ef6c482c84cce0f8d04da761" 0 -460 50 H I C CNN "uuid"
-DRAW
-S -100 40 100 -40 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_200K_0.1%
-#
-DEF 0My_Library_200K_0.1% R 0 40 N N 1 F N
-F0 "R" 0 150 50 H V C CNN
-F1 "0My_Library_200K_0.1%" 0 350 50 H V C CNN
-F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-F4 "C394540" 0 -450 50 H I C CNN "LCSC"
-F5 "std:cbb0cb6b72c9414aadb5fd45e82163ed" 0 -450 50 H I C CNN "uuid"
-DRAW
-S -100 50 100 -50 1 1 6 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 0My_Library_KAQY212S
-#
-DEF 0My_Library_KAQY212S U 0 40 Y N 1 F N
-F0 "U" 0 408 50 H V C CNN
-F1 "0My_Library_KAQY212S" 0 608 50 H V C CNN
-F2 "kicad_lceda:SOP-4_L4.4-W4.0-P2.54-LS7.0-BL" 0 208 50 H I C CNN
-F3 "http://www.szlcsc.com/product/details_239346.html" 0 8 50 H I C CNN
-F4 "C194898" 0 -192 50 H I C CNN "SuppliersPartNumber"
-F5 "std:319a841c663046d483dd8a82198b1b87" 0 -192 50 H I C CNN "uuid"
-DRAW
-S -300 300 300 -310 1 1 6 N
-P 2 1 1 6 -210 0 -130 0 N
-P 2 1 1 6 -100 -5 -30 -75 N
-P 2 1 1 6 -70 35 0 -35 N
-P 2 1 1 6 0 -100 0 100 N
-P 2 1 1 6 5 -100 85 -100 N
-P 2 1 1 6 5 100 85 100 N
-P 2 1 1 6 85 -10 85 -190 N
-P 2 1 1 6 85 190 85 10 N
-P 2 1 1 6 105 -190 105 -150 N
-P 2 1 1 6 105 -120 105 -80 N
-P 2 1 1 6 105 -10 105 -50 N
-P 2 1 1 6 105 10 105 50 N
-P 2 1 1 6 105 80 105 120 N
-P 2 1 1 6 105 190 105 150 N
-P 2 1 1 6 200 -170 105 -170 N
-P 2 1 1 6 200 -100 200 0 N
-P 2 1 1 6 200 -30 105 -30 N
-P 2 1 1 6 200 30 105 30 N
-P 2 1 1 6 260 -200 340 -200 N
-P 2 1 1 6 260 200 340 200 N
-P 4 1 1 6 -310 200 -170 200 -170 -200 -300 -200 N
-P 4 1 1 6 -210 60 -130 60 -170 0 -210 60 N
-P 4 1 1 6 -30 -75 -50 -35 -70 -55 -30 -75 F
-P 4 1 1 6 0 -35 -20 5 -40 -15 0 -35 F
-P 4 1 1 6 105 -100 165 -120 165 -80 105 -100 F
-P 4 1 1 6 105 100 165 80 165 120 105 100 F
-P 4 1 1 6 200 -170 200 -190 200 -200 260 -200 N
-P 4 1 1 6 200 -100 180 -100 140 -100 120 -100 N
-P 5 1 1 6 105 170 205 170 205 200 255 200 300 200 N
-P 6 1 1 6 105 100 200 100 200 50 200 0 200 0 200 0 N
-X 1 1 -500 200 200 R 50 50 1 1 I
-X 2 2 -500 -200 200 R 50 50 1 1 I
-X 3 3 500 -200 200 L 50 50 1 1 I
-X 4 4 500 200 200 L 50 50 1 1 I
+S -300 200 300 -200 1 1 6 N
+X IN 1 -500 100 200 R 50 50 1 1 W
+X OUT 2 500 100 200 L 50 50 1 1 W
+X GND 3 500 -100 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -283,6 +127,214 @@ X 6 6 -300 300 150 R 50 50 1 1 P
 X 7 7 -300 100 150 R 50 50 1 1 P
 X 8 8 -300 -100 150 R 50 50 1 1 P
 X 9 9 -300 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_100K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_100K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_100K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C335088" 0 -450 50 H I C CNN "SuppliersPartNumber"
+F5 "std:944bb200a93041b7ab2acc321d63dff2" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_110K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_110K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "Resistor_Cali-rescue_110K_0.1%-0My_Library" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_306830.html" 0 -260 50 H I C CNN
+F4 "C326736" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:b7aa59c4c6f4436c81381eb8dfbbd1e3" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_120K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_120K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "Resistor_Cali-rescue_120K_0.1%-0My_Library" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "" 0 -260 50 H I C CNN
+F4 "C136959" 0 -460 50 H I C CNN "LCSC"
+F5 "std:bf0bb0bc9e564a8cab5b304b9d6f45e8" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_130K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_130K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_130K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C705808" 0 -450 50 H I C CNN "LCSC"
+F5 "std:8a79ba3353ca48fba8ec34ae9c0624fb" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_140K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_140K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "Resistor_Cali-rescue_140K_0.1%-0My_Library" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "" 0 -260 50 H I C CNN
+F4 "C326761" 0 -460 50 H I C CNN "LCSC"
+F5 "std:4c6dc6c8265e4d6080c1163b45c2bbf2" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_150K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_150K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_150K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C413715" 0 -450 50 H I C CNN "LCSC"
+F5 "std:2116e11561c14358a5a0ff85c2041b13" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_160K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_160K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_160K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C473318" 0 -450 50 H I C CNN "LCSC"
+F5 "std:d1fbc051cb8e47879babc53104c73a9f" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_180K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_180K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_180K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0805" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C473319" 0 -450 50 H I C CNN "LCSC"
+F5 "std:5ba184fc8b2148d59e4b3448668be11b" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_1K_1%-0My_Library
+#
+DEF Resistor_Cali-rescue_1K_1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "Resistor_Cali-rescue_1K_1%-0My_Library" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_308242.html" 0 -260 50 H I C CNN
+F4 "C328340" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:1c3f73d3ef6c482c84cce0f8d04da761" 0 -460 50 H I C CNN "uuid"
+DRAW
+S -100 40 100 -40 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_200K_0.1%-0My_Library
+#
+DEF Resistor_Cali-rescue_200K_0.1%-0My_Library R 0 40 N N 1 F N
+F0 "R" 0 150 50 H V C CNN
+F1 "Resistor_Cali-rescue_200K_0.1%-0My_Library" 0 350 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -50 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+F4 "C394540" 0 -450 50 H I C CNN "LCSC"
+F5 "std:cbb0cb6b72c9414aadb5fd45e82163ed" 0 -450 50 H I C CNN "uuid"
+DRAW
+S -100 50 100 -50 1 1 6 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_Cali-rescue_KAQY212S-0My_Library
+#
+DEF Resistor_Cali-rescue_KAQY212S-0My_Library U 0 40 Y N 1 F N
+F0 "U" 0 408 50 H V C CNN
+F1 "Resistor_Cali-rescue_KAQY212S-0My_Library" 0 608 50 H V C CNN
+F2 "kicad_lceda:SOP-4_L4.4-W4.0-P2.54-LS7.0-BL" 0 208 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_239346.html" 0 8 50 H I C CNN
+F4 "C194898" 0 -192 50 H I C CNN "SuppliersPartNumber"
+F5 "std:319a841c663046d483dd8a82198b1b87" 0 -192 50 H I C CNN "uuid"
+DRAW
+S -300 300 300 -310 1 1 6 N
+P 2 1 1 6 -210 0 -130 0 N
+P 2 1 1 6 -100 -5 -30 -75 N
+P 2 1 1 6 -70 35 0 -35 N
+P 2 1 1 6 0 -100 0 100 N
+P 2 1 1 6 5 -100 85 -100 N
+P 2 1 1 6 5 100 85 100 N
+P 2 1 1 6 85 -10 85 -190 N
+P 2 1 1 6 85 190 85 10 N
+P 2 1 1 6 105 -190 105 -150 N
+P 2 1 1 6 105 -120 105 -80 N
+P 2 1 1 6 105 -10 105 -50 N
+P 2 1 1 6 105 10 105 50 N
+P 2 1 1 6 105 80 105 120 N
+P 2 1 1 6 105 190 105 150 N
+P 2 1 1 6 200 -170 105 -170 N
+P 2 1 1 6 200 -100 200 0 N
+P 2 1 1 6 200 -30 105 -30 N
+P 2 1 1 6 200 30 105 30 N
+P 2 1 1 6 260 -200 340 -200 N
+P 2 1 1 6 260 200 340 200 N
+P 4 1 1 6 -310 200 -170 200 -170 -200 -300 -200 N
+P 4 1 1 6 -210 60 -130 60 -170 0 -210 60 N
+P 4 1 1 6 -30 -75 -50 -35 -70 -55 -30 -75 F
+P 4 1 1 6 0 -35 -20 5 -40 -15 0 -35 F
+P 4 1 1 6 105 -100 165 -120 165 -80 105 -100 F
+P 4 1 1 6 105 100 165 80 165 120 105 100 F
+P 4 1 1 6 200 -170 200 -190 200 -200 260 -200 N
+P 4 1 1 6 200 -100 180 -100 140 -100 120 -100 N
+P 5 1 1 6 105 170 205 170 205 200 255 200 300 200 N
+P 6 1 1 6 105 100 200 100 200 50 200 0 200 0 200 0 N
+X 1 1 -500 200 200 R 50 50 1 1 I
+X 2 2 -500 -200 200 R 50 50 1 1 I
+X 3 3 500 -200 200 L 50 50 1 1 I
+X 4 4 500 200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
