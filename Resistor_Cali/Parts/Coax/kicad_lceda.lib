@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BWSMA-KE-Z001
+#
+DEF BWSMA-KE-Z001 RF 0 40 Y N 1 F N
+F0 "RF" 0 420 50 H V C CNN
+F1 "BWSMA-KE-Z001" 0 620 50 H V C CNN
+F2 "kicad_lceda:SMA-TH_BWSMA-KE-Z001" 0 220 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_508498.html" 0 20 50 H I C CNN
+F4 "C496549" 0 -180 50 H I C CNN "SuppliersPartNumber"
+F5 "std:b27e9a2672e54f29867bdc49efb17709" 0 -180 50 H I C CNN "uuid"
+DRAW
+S -500 100 -130 -100 1 1 6 N
+S -30 100 240 -100 1 1 6 N
+P 2 1 1 6 -130 80 -30 80 N
+P 2 1 1 6 -130 -80 -30 -80 N
+X 1 1 0 300 200 D 50 50 1 1 I 
+X 2 2 200 300 200 D 50 50 1 1 I 
+X 3 3 200 -300 200 U 50 50 1 1 I 
+X 4 4 0 -300 200 U 50 50 1 1 I 
+X 5 5 400 0 200 L 50 50 1 1 I 
+C 100 0 20 1 1 6 N
+P 2 1 1 6 120 0 200 0 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library
