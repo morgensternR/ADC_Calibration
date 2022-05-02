@@ -1,0 +1,17 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"SMA-TH_BWSMA-KE-Z001";1;"Conn_Coaxial";;;
+2;"U16,U15,U7,U14,U6,U13,U18,U5,U12,U4,U17,U11,U3,U10,U9,U2,U8,U1";"SOP-4_L4.4-W4.0-P2.54-LS7.0-BL";18;"KAQY212S";;;
+3;"R25,R24,R7,R23,R6,R22,R34,R5,R21,R4,R33,R20,R3,R19,R16,R2,R15,R1";"R0603";18;"1K_1%";;;
+4;"R32,R14";"160K_0.1";2;"160K_0.1%";;;
+5;"R31,R13";"150K_0.1";2;"150K_0.1%";;;
+6;"R30,R12";"R0603";2;"140K_0.1%";;;
+7;"R29,R11";"R0603";2;"130K_0.1%";;;
+8;"R36,R18";"R0603";2;"200K_0.1%";;;
+9;"R28,R10";"R0603";2;"120K_0.1%";;;
+10;"R35,R17";"180K_0.1";2;"180K_0.1%";;;
+11;"R27,R9";"R0603";2;"110K_0.1%";;;
+12;"R26,R8";"R0603";2;"100K_0.1%";;;
+13;"J5";"PinHeader_1x16_P2.54mm_Vertical";1;"Conn_01x16_Female";;;
+14;"J4,J3";"PinSocket_1x20_P2.54mm_Vertical";2;"Conn_01x20_Female";;;
+15;"J2";"DB9_ASSMANN";1;"DB9_Female";;;
+16;"J6";"PinSocket_1x01_P2.54mm_Horizontal";1;"Conn_01x01_Female";;;
