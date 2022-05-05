@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LTST-C190GKT
+#
+DEF LTST-C190GKT LED 0 40 N N 1 F N
+F0 "LED" 0 190 50 H V C CNN
+F1 "LTST-C190GKT" 0 390 50 H V C CNN
+F2 "kicad_lceda:LED0603-RD" 0 -10 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_136369.html" 0 -210 50 H I C CNN
+F4 "C125093" 0 -410 50 H I C CNN "SuppliersPartNumber"
+F5 "std:596e8190fc0a4a028c9650856f99ff1c" 0 -410 50 H I C CNN "uuid"
+DRAW
+P 2 1 1 6 -50 -30 -50 -170 N
+P 4 1 1 6 50 -40 -50 -100 50 -170 50 -40 N
+X - 1 -200 -100 150 R 50 50 1 1 I 
+X + 2 200 -100 150 L 50 50 1 1 I 
+P 4 1 1 6 -90 50 -70 10 -50 30 -90 50 N
+P 4 1 1 6 -50 90 -30 50 -10 70 -50 90 N
+P 2 1 1 6 -20 -20 -90 50 N
+P 2 1 1 6 20 20 -50 90 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

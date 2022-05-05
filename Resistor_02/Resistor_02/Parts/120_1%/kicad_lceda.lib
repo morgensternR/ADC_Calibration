@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0603WAF1200T5E
+#
+DEF 0603WAF1200T5E R 0 40 N N 1 F N
+F0 "R" 0 140 50 H V C CNN
+F1 "0603WAF1200T5E" 0 340 50 H V C CNN
+F2 "kicad_lceda:R0603" 0 -60 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_23514.html" 0 -260 50 H I C CNN
+F4 "C22787" 0 -460 50 H I C CNN "SuppliersPartNumber"
+F5 "std:2e22ba5c32f665d34776efb9d595e83b" 0 -460 50 H I C CNN "uuid"
+DRAW
+X 2 2 200 0 100 L 50 50 1 1 I 
+X 1 1 -200 0 100 R 50 50 1 1 I 
+S -100 40 100 -40 1 1 6 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

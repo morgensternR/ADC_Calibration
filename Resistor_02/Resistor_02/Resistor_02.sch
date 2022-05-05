@@ -1,0 +1,542 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 62741AB5
+P 7150 4600
+F 0 "#PWR?" H 7150 4350 50  0001 C CNN
+F 1 "GND" H 7155 4427 50  0000 C CNN
+F 2 "" H 7150 4600 50  0001 C CNN
+F 3 "" H 7150 4600 50  0001 C CNN
+	1    7150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 627485C7
+P 1950 4600
+F 0 "#PWR?" H 1950 4450 50  0001 C CNN
+F 1 "+3.3V" H 1965 4773 50  0000 C CNN
+F 2 "" H 1950 4600 50  0001 C CNN
+F 3 "" H 1950 4600 50  0001 C CNN
+	1    1950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4600 1750 4600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6274D25F
+P 2100 5350
+F 0 "#PWR?" H 2100 5200 50  0001 C CNN
+F 1 "+3.3V" H 2115 5523 50  0000 C CNN
+F 2 "" H 2100 5350 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6274DA20
+P 1800 5200
+F 0 "#PWR?" H 1800 5050 50  0001 C CNN
+F 1 "+3.3V" H 1815 5373 50  0000 C CNN
+F 2 "" H 1800 5200 50  0001 C CNN
+F 3 "" H 1800 5200 50  0001 C CNN
+	1    1800 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6274F303
+P 4150 4700
+F 0 "#PWR?" H 4150 4450 50  0001 C CNN
+F 1 "GND" V 4155 4572 50  0000 R CNN
+F 2 "" H 4150 4700 50  0001 C CNN
+F 3 "" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6274F916
+P 4150 5300
+F 0 "#PWR?" H 4150 5050 50  0001 C CNN
+F 1 "GND" V 4155 5172 50  0000 R CNN
+F 2 "" H 4150 5300 50  0001 C CNN
+F 3 "" H 4150 5300 50  0001 C CNN
+	1    4150 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4800 4150 4700
+Connection ~ 4150 4700
+Wire Wire Line
+	4150 4700 4150 4600
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 6276A70E
+P 3550 3100
+F 0 "J?" H 3468 3792 50  0000 C CNN
+F 1 "DB9_Female_MountingHoles" H 3468 3701 50  0000 C CNN
+F 2 "" H 3550 3100 50  0001 C CNN
+F 3 " ~" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	-1   0    0    -1  
+$EndComp
+Text Label 3850 2700 0    50   ~ 0
+I+
+Text Label 3850 2800 0    50   ~ 0
+V+
+Text Label 3850 2900 0    50   ~ 0
+I-
+Text Label 3850 3000 0    50   ~ 0
+V-
+Text Label 3850 3200 0    50   ~ 0
+I_2+
+Text Label 3850 3300 0    50   ~ 0
+V_2+
+Text Label 3850 3400 0    50   ~ 0
+I_2-
+Text Label 3850 3500 0    50   ~ 0
+V_2-
+$Comp
+L power:GND #PWR?
+U 1 1 62781560
+P 3850 3100
+F 0 "#PWR?" H 3850 2850 50  0001 C CNN
+F 1 "GND" V 3855 2972 50  0000 R CNN
+F 2 "" H 3850 3100 50  0001 C CNN
+F 3 "" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 4700 2100 4700
+Wire Wire Line
+	2100 4950 2100 4700
+Connection ~ 2100 4700
+Connection ~ 1950 4600
+Wire Wire Line
+	1750 4800 1800 4800
+$Comp
+L 0_Resistor02:PCA9554PW,118_I2C_bus U?
+U 1 1 627E0A72
+P 3750 4950
+F 0 "U?" H 3750 5585 50  0000 C CNN
+F 1 "PCA9554PW,118_I2C_bus" H 3750 5494 50  0000 C CNN
+F 2 "kicad_lceda:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL" H 3750 6000 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_17915.html" H 3750 5850 50  0001 C CNN
+F 4 "C17230" H 3750 5650 50  0001 C CNN "LCSC"
+F 5 "std:bb4838afca5a42f08634711eb988c1e9" H 3750 6150 50  0001 C CNN "uuid"
+	1    3750 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0_Resistor02:10K_1% R?
+U 1 1 627E1937
+P 2100 5150
+F 0 "R?" H 2100 5355 50  0000 C CNN
+F 1 "10K_1%" H 2100 5264 50  0000 C CNN
+F 2 "kicad_lceda:R1206" H 2100 5090 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_18590.html" H 2100 4890 50  0001 C CNN
+F 4 "C17902" H 2100 4690 50  0001 C CNN "LCSC"
+F 5 "std:4439ff8d4269ac30d55af3439a30f0ec" H 2100 4690 50  0001 C CNN "uuid"
+	1    2100 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0_Resistor02:A1001WR-S-04PD01 U?
+U 1 1 627E33B5
+P 1550 4650
+F 0 "U?" H 1778 4721 50  0000 L CNN
+F 1 "A1001WR-S-04PD01" H 1778 4630 50  0000 L CNN
+F 2 "kicad_lceda:CONN-SMD_A1001WR-S-04PD01" H 1550 4920 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_345092.html" H 1550 4720 50  0001 C CNN
+F 4 "C371571" H 1550 4520 50  0001 C CNN "LCSC"
+F 5 "std:fffc8924ad4c491886ad17012b2faf00" H 1550 4520 50  0001 C CNN "uuid"
+	1    1550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 627E47A6
+P 6550 4750
+F 0 "D?" H 6543 4967 50  0000 C CNN
+F 1 "LED" H 6543 4876 50  0000 C CNN
+F 2 "" H 6550 4750 50  0001 C CNN
+F 3 "~" H 6550 4750 50  0001 C CNN
+F 4 "C125093" H 6550 4750 50  0001 C CNN "LCSC"
+	1    6550 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 627EB0D0
+P 1400 4300
+F 0 "#PWR?" H 1400 4050 50  0001 C CNN
+F 1 "GNDS" H 1405 4127 50  0000 C CNN
+F 2 "" H 1400 4300 50  0001 C CNN
+F 3 "" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 627ED008
+P 1400 4950
+F 0 "#PWR?" H 1400 4700 50  0001 C CNN
+F 1 "GNDS" H 1405 4777 50  0000 C CNN
+F 2 "" H 1400 4950 50  0001 C CNN
+F 3 "" H 1400 4950 50  0001 C CNN
+	1    1400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 627ED8FC
+P 1750 4500
+F 0 "#PWR?" H 1750 4250 50  0001 C CNN
+F 1 "GND" H 1755 4327 50  0000 C CNN
+F 2 "" H 1750 4500 50  0001 C CNN
+F 3 "" H 1750 4500 50  0001 C CNN
+	1    1750 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 627EED50
+P 3550 3700
+F 0 "#PWR?" H 3550 3450 50  0001 C CNN
+F 1 "GNDS" H 3555 3527 50  0000 C CNN
+F 2 "" H 3550 3700 50  0001 C CNN
+F 3 "" H 3550 3700 50  0001 C CNN
+	1    3550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_Resistor02:KAQY214STLD U?
+U 1 1 627EFDA7
+P 6850 2200
+F 0 "U?" V 6804 2628 50  0000 L CNN
+F 1 "KAQY214STLD" V 6895 2628 50  0000 L CNN
+F 2 "kicad_lceda:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR" H 6850 2505 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_114566.html" H 6850 2305 50  0001 C CNN
+F 4 "C113331" H 6850 2105 50  0001 C CNN "LCSC"
+F 5 "std:a467ac90e8974b688511e6550330cb3a" H 6850 2105 50  0001 C CNN "uuid"
+	1    6850 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L 0_Resistor02:KAQY214STLD U?
+U 1 1 627F53B1
+P 6850 4050
+F 0 "U?" V 6804 4478 50  0000 L CNN
+F 1 "KAQY214STLD" V 6895 4478 50  0000 L CNN
+F 2 "kicad_lceda:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR" H 6850 4355 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_114566.html" H 6850 4155 50  0001 C CNN
+F 4 "C113331" H 6850 3955 50  0001 C CNN "LCSC"
+F 5 "std:a467ac90e8974b688511e6550330cb3a" H 6850 3955 50  0001 C CNN "uuid"
+	1    6850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 627F6408
+P 6550 5050
+F 0 "R?" H 6620 5096 50  0000 L CNN
+F 1 "50_1%" H 6620 5005 50  0000 L CNN
+F 2 "" V 6480 5050 50  0001 C CNN
+F 3 "~" H 6550 5050 50  0001 C CNN
+F 4 "C2759402" H 6550 5050 50  0001 C CNN "LCSC"
+	1    6550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 627F98CB
+P 2450 4900
+F 0 "J?" H 2400 5050 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2350 5000 50  0000 C CNN
+F 2 "" H 2450 4900 50  0001 C CNN
+F 3 "~" H 2450 4900 50  0001 C CNN
+	1    2450 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 627FE906
+P 7150 1500
+F 0 "D?" H 7143 1717 50  0000 C CNN
+F 1 "LED" H 7143 1626 50  0000 C CNN
+F 2 "" H 7150 1500 50  0001 C CNN
+F 3 "~" H 7150 1500 50  0001 C CNN
+F 4 "C125093" H 7150 1500 50  0001 C CNN "LCSC"
+	1    7150 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 627FE90D
+P 7150 1200
+F 0 "R?" H 7220 1246 50  0000 L CNN
+F 1 "50_1%" H 7220 1155 50  0000 L CNN
+F 2 "" V 7080 1200 50  0001 C CNN
+F 3 "~" H 7150 1200 50  0001 C CNN
+F 4 "C2759402" H 7150 1200 50  0001 C CNN "LCSC"
+	1    7150 1200
+	-1   0    0    1   
+$EndComp
+Text Label 4150 4900 0    50   ~ 0
+I_00
+Text Label 7150 1050 0    50   ~ 0
+I_00
+Text Label 6550 5200 3    50   ~ 0
+I_01
+$Comp
+L power:GND #PWR?
+U 1 1 6280057F
+P 6550 1650
+F 0 "#PWR?" H 6550 1400 50  0001 C CNN
+F 1 "GND" V 6555 1522 50  0000 R CNN
+F 2 "" H 6550 1650 50  0001 C CNN
+F 3 "" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	0    1    1    0   
+$EndComp
+Text Label 4150 5000 0    50   ~ 0
+I_01
+$Comp
+L 0_Resistor02:10K_1% R?
+U 1 1 62835B78
+P 1800 5000
+F 0 "R?" V 1754 5068 50  0000 L CNN
+F 1 "10K_1%" V 1845 5068 50  0000 L CNN
+F 2 "kicad_lceda:R1206" H 1800 4940 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_18590.html" H 1800 4740 50  0001 C CNN
+F 4 "C17902" H 1800 4540 50  0001 C CNN "LCSC"
+F 5 "std:4439ff8d4269ac30d55af3439a30f0ec" H 1800 4540 50  0001 C CNN "uuid"
+	1    1800 5000
+	0    1    1    0   
+$EndComp
+Connection ~ 1800 4800
+$Comp
+L 0_Resistor02:10K_1% R?
+U 1 1 62838D5E
+P 2700 5100
+F 0 "R?" V 2654 5168 50  0000 L CNN
+F 1 "10K_1%" V 2745 5168 50  0000 L CNN
+F 2 "kicad_lceda:R1206" H 2700 5040 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_18590.html" H 2700 4840 50  0001 C CNN
+F 4 "C17902" H 2700 4640 50  0001 C CNN "LCSC"
+F 5 "std:4439ff8d4269ac30d55af3439a30f0ec" H 2700 4640 50  0001 C CNN "uuid"
+	1    2700 5100
+	0    1    1    0   
+$EndComp
+Connection ~ 2700 4900
+Wire Wire Line
+	2700 4900 2650 4900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6283A97E
+P 2700 5300
+F 0 "#PWR?" H 2700 5150 50  0001 C CNN
+F 1 "+3.3V" H 2715 5473 50  0000 C CNN
+F 2 "" H 2700 5300 50  0001 C CNN
+F 3 "" H 2700 5300 50  0001 C CNN
+	1    2700 5300
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 9000 2800 1100 1450
+U 6283D226
+F0 "Resistor_Network" 50
+F1 "Resistor_Network.sch" 50
+F2 "Input" I L 9000 2950 50 
+F3 "Output" I L 9000 3150 50 
+F4 "I_02" I L 9000 3400 50 
+F5 "I_03" I L 9000 3550 50 
+F6 "I_04" I L 9000 3650 50 
+F7 "I_05" I L 9000 3800 50 
+F8 "I_06" I L 9000 3950 50 
+F9 "I_07" I L 9000 4100 50 
+$EndSheet
+$Comp
+L 0_Resistor02:KAQY214STLD U?
+U 1 1 6284A91F
+P 5050 4050
+F 0 "U?" V 5004 4478 50  0000 L CNN
+F 1 "KAQY214STLD" V 5095 4478 50  0000 L CNN
+F 2 "kicad_lceda:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR" H 5050 4355 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_114566.html" H 5050 4155 50  0001 C CNN
+F 4 "C113331" H 5050 3955 50  0001 C CNN "LCSC"
+F 5 "std:a467ac90e8974b688511e6550330cb3a" H 5050 3955 50  0001 C CNN "uuid"
+	1    5050 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3500 3850 3500
+Wire Wire Line
+	3850 3400 4750 3400
+Wire Wire Line
+	4750 3400 4750 3500
+Connection ~ 4750 3500
+$Comp
+L 0_Resistor02:KAQY214STLD U?
+U 1 1 62863A00
+P 5050 2150
+F 0 "U?" V 5004 2578 50  0000 L CNN
+F 1 "KAQY214STLD" V 5095 2578 50  0000 L CNN
+F 2 "kicad_lceda:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR" H 5050 2455 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_114566.html" H 5050 2255 50  0001 C CNN
+F 4 "C113331" H 5050 2055 50  0001 C CNN "LCSC"
+F 5 "std:a467ac90e8974b688511e6550330cb3a" H 5050 2055 50  0001 C CNN "uuid"
+	1    5050 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 2900 4750 2900
+Wire Wire Line
+	3800 3000 3850 3000
+Wire Wire Line
+	4750 2700 4750 2900
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3000 4750 3000
+Connection ~ 4750 2900
+Wire Wire Line
+	4750 2900 4750 3000
+Wire Wire Line
+	4250 2700 4250 2750
+Wire Wire Line
+	3850 2700 4250 2700
+Wire Wire Line
+	3850 2800 4250 2800
+Wire Wire Line
+	4250 2750 6550 2750
+Connection ~ 4250 2750
+Wire Wire Line
+	4250 2750 4250 2800
+Wire Wire Line
+	3850 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 3250
+Wire Wire Line
+	4250 3300 3850 3300
+Wire Wire Line
+	4250 3250 6550 3250
+Connection ~ 4250 3250
+Wire Wire Line
+	4250 3250 4250 3300
+Wire Wire Line
+	6550 3250 6550 3500
+Wire Wire Line
+	5350 2700 5350 3150
+Wire Wire Line
+	7150 2750 7150 2950
+Wire Wire Line
+	9000 2950 7150 2950
+Connection ~ 7150 2950
+Wire Wire Line
+	7150 2950 7150 3500
+Wire Wire Line
+	9000 3150 5350 3150
+Connection ~ 5350 3150
+Wire Wire Line
+	5350 3150 5350 3500
+$Comp
+L Device:R R?
+U 1 1 628783F5
+P 4750 4750
+F 0 "R?" H 4820 4796 50  0000 L CNN
+F 1 "330" H 4820 4705 50  0000 L CNN
+F 2 "" V 4680 4750 50  0001 C CNN
+F 3 "~" H 4750 4750 50  0001 C CNN
+F 4 "C125768" H 4750 4750 50  0001 C CNN "LCSC"
+	1    4750 4750
+	1    0    0    -1  
+$EndComp
+Text Label 4750 4900 3    50   ~ 0
+I_01
+$Comp
+L Device:R R?
+U 1 1 62879439
+P 5350 1450
+F 0 "R?" H 5420 1496 50  0000 L CNN
+F 1 "50_1%" H 5420 1405 50  0000 L CNN
+F 2 "" V 5280 1450 50  0001 C CNN
+F 3 "~" H 5350 1450 50  0001 C CNN
+F 4 "C2759402" H 5350 1450 50  0001 C CNN "LCSC"
+	1    5350 1450
+	-1   0    0    1   
+$EndComp
+Text Label 5350 1300 0    50   ~ 0
+I_00
+$Comp
+L power:GND #PWR?
+U 1 1 62879B17
+P 4750 1600
+F 0 "#PWR?" H 4750 1350 50  0001 C CNN
+F 1 "GND" V 4755 1472 50  0000 R CNN
+F 2 "" H 4750 1600 50  0001 C CNN
+F 3 "" H 4750 1600 50  0001 C CNN
+	1    4750 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6287A5D2
+P 5350 4600
+F 0 "#PWR?" H 5350 4350 50  0001 C CNN
+F 1 "GND" V 5355 4472 50  0000 R CNN
+F 2 "" H 5350 4600 50  0001 C CNN
+F 3 "" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	0    -1   -1   0   
+$EndComp
+Text Label 9000 3400 2    50   ~ 0
+I_02
+Text Label 4150 5100 0    50   ~ 0
+I_02
+Text Label 4150 5200 0    50   ~ 0
+I_03
+Wire Wire Line
+	1950 4600 3350 4600
+Wire Wire Line
+	2100 4700 3350 4700
+Wire Wire Line
+	1800 4800 3350 4800
+Wire Wire Line
+	2700 4900 3350 4900
+Text Label 3350 5000 2    50   ~ 0
+I_07
+Text Label 3350 5100 2    50   ~ 0
+I_06
+Text Label 3350 5200 2    50   ~ 0
+I_05
+Text Label 3350 5300 2    50   ~ 0
+I_04
+Text Label 9000 3550 2    50   ~ 0
+I_03
+Text Label 9000 3650 2    50   ~ 0
+I_04
+Text Label 9000 3800 2    50   ~ 0
+I_05
+Text Label 9000 3950 2    50   ~ 0
+I_06
+Text Label 9000 4100 2    50   ~ 0
+I_07
+$EndSCHEMATC

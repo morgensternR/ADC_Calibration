@@ -1,0 +1,32 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5800 3750 0    50   Input ~ 0
+Input
+Text HLabel 5800 4000 0    50   Input ~ 0
+Output
+Text HLabel 5650 4200 0    50   Input ~ 0
+I_02
+Text HLabel 5600 4350 0    50   Input ~ 0
+I_03
+Text HLabel 5550 4500 0    50   Input ~ 0
+I_04
+Text HLabel 5600 4650 0    50   Input ~ 0
+I_05
+Text HLabel 5650 4750 0    50   Input ~ 0
+I_06
+Text HLabel 5550 4900 0    50   Input ~ 0
+I_07
+$EndSCHEMATC
