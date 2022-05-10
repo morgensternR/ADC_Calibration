@@ -224,13 +224,13 @@ Text Label 1100 2500 0    50   ~ 0
 I-
 Text Label 1100 2600 0    50   ~ 0
 V-
-Text Label 1100 2800 0    50   ~ 0
-I+_2
 Text Label 1100 2900 0    50   ~ 0
+I+_2
+Text Label 1100 2800 0    50   ~ 0
 V+_2
-Text Label 1100 3000 0    50   ~ 0
-I-_2
 Text Label 1100 3100 0    50   ~ 0
+I-_2
+Text Label 1100 3000 0    50   ~ 0
 V-_2
 $Comp
 L power:GNDS #PWR02
@@ -449,17 +449,6 @@ F 4 "C473318" H 3200 3850 50  0001 C CNN "LCSC"
 	1    3200 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 627EE01E
-P 1100 2700
-F 0 "#PWR0101" H 1100 2450 50  0001 C CNN
-F 1 "GND" V 1105 2572 50  0000 R CNN
-F 2 "" H 1100 2700 50  0001 C CNN
-F 3 "" H 1100 2700 50  0001 C CNN
-	1    1100 2700
-	0    -1   -1   0   
-$EndComp
 Text Label 1800 1550 0    50   ~ 0
 I+
 Text Label 1800 2050 0    50   ~ 0
@@ -576,4 +565,17 @@ Text Label 4050 2700 3    50   ~ 0
 I_out
 Text Label 5350 2750 3    50   ~ 0
 I_out
+$Comp
+L power:GNDS #PWR0101
+U 1 1 62838416
+P 1300 2700
+F 0 "#PWR0101" H 1300 2450 50  0001 C CNN
+F 1 "GNDS" H 1305 2527 50  0000 C CNN
+F 2 "" H 1300 2700 50  0001 C CNN
+F 3 "" H 1300 2700 50  0001 C CNN
+	1    1300 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 2700 1300 2700
 $EndSCHEMATC

@@ -224,13 +224,13 @@ Text Label 1100 2500 0    50   ~ 0
 I-
 Text Label 1100 2600 0    50   ~ 0
 V-
-Text Label 1100 2800 0    50   ~ 0
-I+_2
 Text Label 1100 2900 0    50   ~ 0
+I+_2
+Text Label 1100 2800 0    50   ~ 0
 V+_2
-Text Label 1100 3000 0    50   ~ 0
-I-_2
 Text Label 1100 3100 0    50   ~ 0
+I-_2
+Text Label 1100 3000 0    50   ~ 0
 V-_2
 $Comp
 L power:GNDS #PWR02
@@ -453,9 +453,9 @@ Text Label 1800 1550 0    50   ~ 0
 I+
 Text Label 1800 2050 0    50   ~ 0
 I+_2
-Text Label 1850 2250 0    50   ~ 0
+Text Label 2000 2250 0    50   ~ 0
 V+
-Text Label 1850 2750 2    50   ~ 0
+Text Label 2000 2750 2    50   ~ 0
 V+_2
 Text Label 1850 2950 0    50   ~ 0
 I-
@@ -479,12 +479,12 @@ $EndComp
 $Comp
 L Jumper:Jumper_3_Open JP26
 U 1 1 6280857B
-P 1850 2500
-F 0 "JP26" V 1850 2724 50  0000 C CNN
-F 1 "Jumper_3_Open" V 1850 2633 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 1850 2500 50  0001 C CNN
-F 3 "~" H 1850 2500 50  0001 C CNN
-	1    1850 2500
+P 2000 2500
+F 0 "JP26" V 2100 2700 50  0000 C CNN
+F 1 "Jumper_3_Open" V 2000 2800 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 2000 2500 50  0001 C CNN
+F 3 "~" H 2000 2500 50  0001 C CNN
+	1    2000 2500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -511,7 +511,7 @@ F 3 "~" H 1800 4100 50  0001 C CNN
 $EndComp
 Text Label 1950 1800 0    50   ~ 0
 I_in
-Text Label 2000 2500 0    50   ~ 0
+Text Label 2150 2500 0    50   ~ 0
 V_in
 Text Label 2000 3200 0    50   ~ 0
 I_out
@@ -566,14 +566,16 @@ I_out
 Text Label 5350 2750 3    50   ~ 0
 I_out
 $Comp
-L power:GNDS #PWR?
+L power:GNDS #PWR0101
 U 1 1 62838416
-P 1100 2700
-F 0 "#PWR?" H 1100 2450 50  0001 C CNN
-F 1 "GNDS" H 1105 2527 50  0000 C CNN
-F 2 "" H 1100 2700 50  0001 C CNN
-F 3 "" H 1100 2700 50  0001 C CNN
-	1    1100 2700
+P 1300 2700
+F 0 "#PWR0101" H 1300 2450 50  0001 C CNN
+F 1 "GNDS" H 1305 2527 50  0000 C CNN
+F 2 "" H 1300 2700 50  0001 C CNN
+F 3 "" H 1300 2700 50  0001 C CNN
+	1    1300 2700
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1100 2700 1300 2700
 $EndSCHEMATC
