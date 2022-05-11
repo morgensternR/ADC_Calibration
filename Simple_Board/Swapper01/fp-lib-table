@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 0_Swapper_Footprints)(type KiCad)(uri ${KIPRJMOD}/Swapper_Footprints.pretty)(options "")(descr "")(disabled))
+  (lib (name 0_Swapper01)(type KiCad)(uri ${KIPRJMOD}/0_Swapper_Footprints/Swapper01.pretty)(options "")(descr ""))
+)

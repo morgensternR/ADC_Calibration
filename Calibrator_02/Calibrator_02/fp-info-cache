@@ -1,11 +1,18 @@
-19214460186756012
-0_Swapper01
-DSUB-TH_DMR-9S
+19216112482092219
+0_Resistor_02
+LED0603-RD
 
 
 0
-11
-11
+2
+2
+0_Resistor_02
+TQFN-24_L4.0-W4.0-P0.50-TL-EP
+
+
+0
+25
+25
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Resistor_02)(type KiCad)(uri "${KIPRJMOD}/kicad_Lib & Footprint/Resistor_02.pretty")(options "")(descr ""))
+  (lib (name "kicad_Lib & Footprint")(type KiCad)(uri "${KIPRJMOD}/kicad_Lib & Footprint.pretty")(options "")(descr ""))
 )
