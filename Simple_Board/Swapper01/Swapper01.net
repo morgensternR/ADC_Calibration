@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\rdm8\Documents\GitHub\ADC_Calibration\Simple_Board\Swapper01\Swapper01.sch)
-    (date "5/11/2022 5:08:09 PM")
+    (date "5/12/2022 10:17:28 AM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -388,7 +388,7 @@
       (node (ref JP27) (pin 1)))
     (net (code 8) (name /I_out)
       (node (ref JP27) (pin 2))
-      (node (ref J2) (pin 3))
+      (node (ref J2) (pin 4))
       (node (ref JP11) (pin 2))
       (node (ref JP9) (pin 2))
       (node (ref JP19) (pin 2))
@@ -409,7 +409,7 @@
       (node (ref JP12) (pin 2))
       (node (ref JP8) (pin 2))
       (node (ref JP28) (pin 2))
-      (node (ref J2) (pin 4))
+      (node (ref J2) (pin 3))
       (node (ref JP20) (pin 2))
       (node (ref JP24) (pin 2)))
     (net (code 12) (name GNDS)

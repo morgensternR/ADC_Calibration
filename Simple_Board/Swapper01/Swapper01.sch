@@ -594,8 +594,8 @@ Text Label 1000 3900 0    50   ~ 0
 I_in
 Text Label 1000 4000 0    50   ~ 0
 V_in
-Text Label 1000 4100 0    50   ~ 0
-I_out
 Text Label 1000 4200 0    50   ~ 0
+I_out
+Text Label 1000 4100 0    50   ~ 0
 V_out
 $EndSCHEMATC
