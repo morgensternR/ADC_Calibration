@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rdm8\Documents\GitHub\ADC_Calibration\Calibrator_02\Calibrator_02\Calibrator_02.sch</source>
+    <date>5/16/2022 12:01:23 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Calibrator_02.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Resistor_Network/" tstamps="/6283D226/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Resistor_Network.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>DB9_Female_MountingHoles</value>
+      <footprint>0_Resistor_02:DSUB-TH_DMR-9S</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C141882</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Female_MountingHoles" description="9-pin female D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6276A70E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627F98CB</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627F53B1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627EFDA7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628586C9</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628586D1</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6285CC7B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6285CC83</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284A91F</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>AW9523BTQR</value>
+      <footprint>0_Resistor_02:TQFN-24_L4.0-W4.0-P0.50-TL-EP</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_159410.html</datasheet>
+      <fields>
+        <field name="LCSC">C148077</field>
+        <field name="uuid">std:fcc39099b8dc42709caa5971ac551490</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="AW9523BTQR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627BA299</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62863A00</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6281583F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628173F4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6281855E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6281DACE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint size ">0402</field>
+        <field name="LCSC">C77009</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62823101</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627E1405</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629325F5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62937D23</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A90CC6</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627E9ED5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628F1540</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62893971</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62894BC4</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6289536E</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62898241</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6289ADD7</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>628C2DB7</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>628DB7E0</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629247FB</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62924803</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6292807F</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62928087</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62952522</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6295252A</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6295A4E4</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6295A4EC</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6296491F</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62964927</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62969201</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62969209</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62985DC3</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62985DCB</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62985DF2</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62985DFA</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>KAQY214STLD</value>
+      <footprint>0_Resistor_02:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_114566.html</datasheet>
+      <fields>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <libsource lib="0_Resistor02" part="KAQY214STLD" description=""/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6288E641</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6293CDB3</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629494E0</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>62955D67</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629626A8</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6296F1B7</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>0_Resistor_02:LED0603-RD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C125093</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6297BF25</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>200K_0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C394540</field>
+        <field name="Size">R0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6298B64E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>180K_0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C473319</field>
+        <field name="Size">R0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>6299B156</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>160K_0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C473318</field>
+        <field name="Size">R0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629A9E7C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>140K_0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326761</field>
+        <field name="Size">R0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629B9198</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120K_0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C136959</field>
+        <field name="Size">R0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629C927A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K_0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C335088</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Resistor_Network/" tstamps="/6283D226/"/>
+      <tstamp>629D9115</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_Resistor02" part="AW9523BTQR">
+      <docs>http://www.szlcsc.com/product/details_159410.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AW9523BTQR</field>
+        <field name="Footprint">kicad_lceda:TQFN-24_L4.0-W4.0-P0.50-TL-EP</field>
+        <field name="LCSC">C148077</field>
+        <field name="uuid">std:fcc39099b8dc42709caa5971ac551490</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1_0" type="input"/>
+        <pin num="2" name="P1_1" type="input"/>
+        <pin num="3" name="P1_2" type="input"/>
+        <pin num="4" name="P1_3" type="input"/>
+        <pin num="5" name="P0_0" type="input"/>
+        <pin num="6" name="P0_1" type="input"/>
+        <pin num="7" name="P0_2" type="input"/>
+        <pin num="8" name="P0_3" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="P0_4" type="input"/>
+        <pin num="11" name="P0_5" type="input"/>
+        <pin num="12" name="P0_6" type="input"/>
+        <pin num="13" name="P0_7" type="input"/>
+        <pin num="14" name="P1_4" type="input"/>
+        <pin num="15" name="P1_5" type="input"/>
+        <pin num="16" name="P1_6" type="input"/>
+        <pin num="17" name="P1_7" type="input"/>
+        <pin num="18" name="AD0" type="input"/>
+        <pin num="19" name="SCL" type="input"/>
+        <pin num="20" name="SDA" type="input"/>
+        <pin num="21" name="VCC" type="input"/>
+        <pin num="22" name="INTN" type="input"/>
+        <pin num="23" name="RSTN" type="input"/>
+        <pin num="24" name="AD1" type="input"/>
+        <pin num="25" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Resistor02" part="KAQY214STLD">
+      <docs>http://www.szlcsc.com/product/details_114566.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KAQY214STLD</field>
+        <field name="Footprint">kicad_lceda:SOP-4_L3.9-W4.4-P2.54-LS7.0-BR</field>
+        <field name="LCSC">C113331</field>
+        <field name="uuid">std:a467ac90e8974b688511e6550330cb3a</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="K" type="input"/>
+        <pin num="3" name="S1" type="input"/>
+        <pin num="4" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Female_MountingHoles">
+      <description>9-pin female D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_Resistor02">
+      <uri>C:\Users\rdm8\Documents\GitHub\ADC_Calibration\Calibrator_02\Calibrator_02/kicad_Lib &amp; Footprint/0_Resistor02.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="M1" pin="9"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="M1" pin="25"/>
+    </net>
+    <net code="2" name="/Resistor_Network/V+">
+      <node ref="U4" pin="4"/>
+      <node ref="U14" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U16" pin="3"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U18" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U20" pin="3"/>
+    </net>
+    <net code="3" name="/Resistor_Network/I+">
+      <node ref="U11" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U19" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="4" name="/I_03">
+      <node ref="U5" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="M1" pin="8"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="5" name="/I_02">
+      <node ref="U6" pin="2"/>
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="6" name="/I_01">
+      <node ref="M1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="7" name="/I_00">
+      <node ref="M1" pin="5"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="M1" pin="22"/>
+    </net>
+    <net code="9" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="M1" pin="20"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="M1" pin="19"/>
+    </net>
+    <net code="11" name="/I_13">
+      <node ref="U16" pin="2"/>
+      <node ref="U28" pin="2"/>
+      <node ref="U27" pin="2"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="12" name="/I_17">
+      <node ref="M1" pin="17"/>
+      <node ref="U31" pin="2"/>
+      <node ref="U20" pin="2"/>
+      <node ref="U32" pin="2"/>
+    </net>
+    <net code="13" name="/I_16">
+      <node ref="U19" pin="2"/>
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="14" name="/I_15">
+      <node ref="U29" pin="2"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U30" pin="2"/>
+      <node ref="M1" pin="15"/>
+    </net>
+    <net code="15" name="/I_14">
+      <node ref="U17" pin="2"/>
+      <node ref="M1" pin="14"/>
+    </net>
+    <net code="16" name="/I_12">
+      <node ref="U15" pin="2"/>
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="17" name="/I_11">
+      <node ref="U26" pin="2"/>
+      <node ref="M1" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="U25" pin="2"/>
+    </net>
+    <net code="18" name="/I+">
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad1)">
+      <node ref="JP1" pin="2"/>
+      <node ref="M1" pin="23"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="21" name="+3V3">
+      <node ref="D3" pin="2"/>
+      <node ref="U20" pin="1"/>
+      <node ref="U31" pin="1"/>
+      <node ref="U32" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U24" pin="1"/>
+      <node ref="U26" pin="1"/>
+      <node ref="U25" pin="1"/>
+      <node ref="U27" pin="1"/>
+      <node ref="U23" pin="1"/>
+      <node ref="U21" pin="1"/>
+      <node ref="U30" pin="1"/>
+      <node ref="U22" pin="1"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U29" pin="1"/>
+      <node ref="U28" pin="1"/>
+      <node ref="U18" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="M1" pin="24"/>
+      <node ref="U4" pin="1"/>
+      <node ref="M1" pin="21"/>
+      <node ref="M1" pin="18"/>
+    </net>
+    <net code="22" name="/Resistor_Network/I-">
+      <node ref="U29" pin="4"/>
+      <node ref="U23" pin="4"/>
+      <node ref="U21" pin="4"/>
+      <node ref="U25" pin="4"/>
+      <node ref="U27" pin="4"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U31" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="23" name="/Resistor_Network/V-">
+      <node ref="U32" pin="4"/>
+      <node ref="U24" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U26" pin="4"/>
+      <node ref="U30" pin="4"/>
+      <node ref="U28" pin="4"/>
+      <node ref="U22" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="25" name="/I_10">
+      <node ref="M1" pin="1"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="26" name="/I_07">
+      <node ref="U23" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U24" pin="2"/>
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="27" name="/I_06">
+      <node ref="M1" pin="12"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="28" name="/I_05">
+      <node ref="U21" pin="2"/>
+      <node ref="M1" pin="11"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U22" pin="2"/>
+    </net>
+    <net code="29" name="/I_04">
+      <node ref="M1" pin="10"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="30" name="/V_2+">
+      <node ref="J2" pin="8"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="31" name="/V-">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="32" name="GNDS">
+      <node ref="J2" pin="0"/>
+    </net>
+    <net code="33" name="/I_2-">
+      <node ref="U8" pin="4"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="34" name="/V_2-">
+      <node ref="J2" pin="9"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="35" name="/I_2+">
+      <node ref="J2" pin="4"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="36" name="/I-">
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="37" name="/V+">
+      <node ref="J2" pin="6"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="38" name="Net-(R7-Pad1)">
+      <node ref="U18" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="39" name="Net-(R6-Pad1)">
+      <node ref="U16" pin="4"/>
+      <node ref="U15" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U22" pin="3"/>
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="41" name="Net-(D8-Pad1)">
+      <node ref="U19" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad1)">
+      <node ref="U9" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R4-Pad2)">
+      <node ref="U24" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U23" pin="3"/>
+    </net>
+    <net code="44" name="Net-(R4-Pad1)">
+      <node ref="U11" pin="4"/>
+      <node ref="U12" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U26" pin="3"/>
+      <node ref="U25" pin="3"/>
+    </net>
+    <net code="46" name="Net-(R5-Pad1)">
+      <node ref="U14" pin="4"/>
+      <node ref="U13" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R8-Pad1)">
+      <node ref="U10" pin="4"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U31" pin="3"/>
+      <node ref="U32" pin="3"/>
+    </net>
+    <net code="49" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U20" pin="4"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="50" name="Net-(R7-Pad2)">
+      <node ref="U30" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U29" pin="3"/>
+    </net>
+    <net code="51" name="Net-(D4-Pad1)">
+      <node ref="U11" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="55" name="Net-(R6-Pad2)">
+      <node ref="U28" pin="3"/>
+      <node ref="U27" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+  </nets>
+</export>

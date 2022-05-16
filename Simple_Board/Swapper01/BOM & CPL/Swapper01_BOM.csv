@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+"DB9_Female_MountingHoles","J1","0_Swapper01:DSUB-TH_DMR-9S","C141882"
+"Conn_01x04","J2","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",""
+"Jumper","JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8,JP9,JP10,JP11,JP12,JP13,JP14,JP15,JP16,JP17,JP18,JP19,JP20,JP21,JP22,JP23,JP24","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
+"Jumper_3_Open","JP25,JP26,JP27,JP28","Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm",""
+"100K","R1","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C335088"
+"120K","R2","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C136959"
+"140K","R3","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C326761"
+"160K","R4","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C473318"
+"180K","R5","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C473319"
+"200K","R6","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C394540"

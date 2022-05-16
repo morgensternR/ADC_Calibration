@@ -1,0 +1,9 @@
+Designator,MidX,MidY,Layer,Rotation
+J1,-2.54,6.35,top,180
+J2,8.255,22.225,top,180
+R1,15.4,5.1,top,90
+R2,25.4,5.1,top,90
+R3,35.4,5.1,top,90
+R4,45.4,5.1,top,90
+R5,55.4,5.1,top,90
+R6,65.4,5.1,top,90

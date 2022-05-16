@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rdm8\Documents\GitHub\ADC_Calibration\Simple_Board\Swapper01\Swapper01.sch</source>
+    <date>5/16/2022 12:09:10 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Swapper01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>DB9_Female_MountingHoles</value>
+      <footprint>0_Swapper01:DSUB-TH_DMR-9S</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C141882</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Female_MountingHoles" description="9-pin female D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628FCD41</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628FEBD4</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62900893</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C335088</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62900A6C</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62906727</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290672D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>120K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C136959</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62906734</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62907B39</tstamp>
+    </comp>
+    <comp ref="JP9">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62907B3F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>140K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326761</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62907B46</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629094FB</tstamp>
+    </comp>
+    <comp ref="JP10">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62909501</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290A75D</tstamp>
+    </comp>
+    <comp ref="JP11">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290A763</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>180K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C473319</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290A76A</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290B5B1</tstamp>
+    </comp>
+    <comp ref="JP12">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290B5B7</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C394540</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6290B5BE</tstamp>
+    </comp>
+    <comp ref="JP15">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294567D</tstamp>
+    </comp>
+    <comp ref="JP21">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62945683</tstamp>
+    </comp>
+    <comp ref="JP16">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62945689</tstamp>
+    </comp>
+    <comp ref="JP22">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294568F</tstamp>
+    </comp>
+    <comp ref="JP17">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294A5C9</tstamp>
+    </comp>
+    <comp ref="JP23">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294A5CF</tstamp>
+    </comp>
+    <comp ref="JP18">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294A5D5</tstamp>
+    </comp>
+    <comp ref="JP24">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294A5DB</tstamp>
+    </comp>
+    <comp ref="JP20">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62943ED5</tstamp>
+    </comp>
+    <comp ref="JP14">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62943ECF</tstamp>
+    </comp>
+    <comp ref="JP19">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62943EC9</tstamp>
+    </comp>
+    <comp ref="JP13">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62943EC3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>160K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C473318</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62909508</tstamp>
+    </comp>
+    <comp ref="JP25">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62803E25</tstamp>
+    </comp>
+    <comp ref="JP26">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6280857B</tstamp>
+    </comp>
+    <comp ref="JP27">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62808ECD</tstamp>
+    </comp>
+    <comp ref="JP28">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628097E7</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627D0DE6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DB9_Female_MountingHoles">
+      <description>9-pin female D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(JP19-Pad1)">
+      <node ref="JP19" pin="1"/>
+      <node ref="JP20" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(JP13-Pad2)">
+      <node ref="JP13" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="JP14" pin="2"/>
+    </net>
+    <net code="3" name="/I+_2">
+      <node ref="JP25" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="/I+">
+      <node ref="J1" pin="1"/>
+      <node ref="JP25" pin="3"/>
+    </net>
+    <net code="5" name="/V+_2">
+      <node ref="JP26" pin="1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="6" name="/V+">
+      <node ref="J1" pin="6"/>
+      <node ref="JP26" pin="3"/>
+    </net>
+    <net code="7" name="/I-_2">
+      <node ref="J1" pin="5"/>
+      <node ref="JP27" pin="1"/>
+    </net>
+    <net code="8" name="/I_out">
+      <node ref="JP27" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="JP11" pin="2"/>
+      <node ref="JP9" pin="2"/>
+      <node ref="JP19" pin="2"/>
+      <node ref="JP7" pin="2"/>
+      <node ref="JP21" pin="2"/>
+      <node ref="JP23" pin="2"/>
+    </net>
+    <net code="9" name="Net-(JP23-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="JP23" pin="1"/>
+      <node ref="JP24" pin="1"/>
+    </net>
+    <net code="10" name="Net-(JP17-Pad2)">
+      <node ref="JP18" pin="2"/>
+      <node ref="JP17" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="11" name="/V_out">
+      <node ref="JP10" pin="2"/>
+      <node ref="JP22" pin="2"/>
+      <node ref="JP12" pin="2"/>
+      <node ref="JP8" pin="2"/>
+      <node ref="JP28" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="JP20" pin="2"/>
+      <node ref="JP24" pin="2"/>
+    </net>
+    <net code="12" name="GNDS">
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="0"/>
+    </net>
+    <net code="13" name="/I_in">
+      <node ref="JP1" pin="1"/>
+      <node ref="JP13" pin="1"/>
+      <node ref="JP17" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="JP15" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="JP25" pin="2"/>
+    </net>
+    <net code="14" name="/V_in">
+      <node ref="JP18" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP14" pin="1"/>
+      <node ref="JP16" pin="1"/>
+      <node ref="JP26" pin="2"/>
+      <node ref="JP6" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="15" name="/I-">
+      <node ref="JP27" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="16" name="/V-_2">
+      <node ref="J1" pin="9"/>
+      <node ref="JP28" pin="1"/>
+    </net>
+    <net code="17" name="/V-">
+      <node ref="J1" pin="7"/>
+      <node ref="JP28" pin="3"/>
+    </net>
+    <net code="18" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(JP11-Pad1)">
+      <node ref="JP12" pin="1"/>
+      <node ref="JP11" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(JP7-Pad1)">
+      <node ref="JP7" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="JP8" pin="1"/>
+    </net>
+    <net code="21" name="Net-(JP3-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="22" name="Net-(JP10-Pad1)">
+      <node ref="JP9" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="JP10" pin="1"/>
+    </net>
+    <net code="23" name="Net-(JP15-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="JP15" pin="2"/>
+      <node ref="JP16" pin="2"/>
+    </net>
+    <net code="24" name="Net-(JP21-Pad1)">
+      <node ref="JP21" pin="1"/>
+      <node ref="JP22" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(JP1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+  </nets>
+</export>
