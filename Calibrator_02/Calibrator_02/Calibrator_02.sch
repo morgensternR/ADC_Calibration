@@ -717,22 +717,6 @@ Wire Wire Line
 Connection ~ 9050 2900
 Wire Wire Line
 	9050 2900 9350 2900
-Wire Wire Line
-	1700 6500 1800 6500
-$Comp
-L Device:Jumper JP1
-U 1 1 627E9ED5
-P 1800 6200
-F 0 "JP1" V 1754 6327 50  0000 L CNN
-F 1 "Jumper" V 1845 6327 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1800 6200 50  0001 C CNN
-F 3 "~" H 1800 6200 50  0001 C CNN
-	1    1800 6200
-	0    1    1    0   
-$EndComp
-Connection ~ 1800 6500
-Wire Wire Line
-	1800 6500 2750 6500
 $Comp
 L power:+3.3V #PWR09
 U 1 1 627EAC45
@@ -931,4 +915,11 @@ Wire Wire Line
 	7900 1200 7900 700 
 Wire Wire Line
 	3700 700  3700 1050
+Wire Wire Line
+	1700 6500 1800 6500
+Wire Wire Line
+	1800 5900 1800 6500
+Connection ~ 1800 6500
+Wire Wire Line
+	1800 6500 2750 6500
 $EndSCHEMATC

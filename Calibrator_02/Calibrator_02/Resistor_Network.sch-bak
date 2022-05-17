@@ -371,9 +371,6 @@ Text HLabel 750  800  0    50   Input ~ 0
 3.3V
 Text HLabel 850  5450 0    50   Input ~ 0
 3.3V
-Connection ~ 2750 800 
-Wire Wire Line
-	2750 800  3900 800 
 Text HLabel 2750 4800 3    50   Input ~ 0
 I_05
 Text HLabel 4200 1600 1    50   Input ~ 0
@@ -398,97 +395,10 @@ Text HLabel 8200 1600 1    50   Input ~ 0
 I_13
 Text HLabel 8800 4800 3    50   Input ~ 0
 I_13
-Wire Wire Line
-	750  800  1850 800 
-Connection ~ 11450 5450
-Wire Wire Line
-	11450 5450 12350 5450
-Connection ~ 10300 5450
-Wire Wire Line
-	10300 5450 11450 5450
-Connection ~ 9400 5450
-Wire Wire Line
-	9400 5450 10300 5450
-Connection ~ 8200 5450
-Wire Wire Line
-	8200 5450 9400 5450
-Connection ~ 7300 5450
-Wire Wire Line
-	7300 5450 8200 5450
-Connection ~ 5350 5450
-Wire Wire Line
-	5350 5450 6250 5450
-Connection ~ 6250 5450
-Wire Wire Line
-	6250 5450 7300 5450
-Connection ~ 4250 5450
-Wire Wire Line
-	4250 5450 5350 5450
-Connection ~ 3350 5450
-Wire Wire Line
-	3350 5450 4250 5450
-Connection ~ 2150 5450
-Wire Wire Line
-	2150 5450 3350 5450
-Wire Wire Line
-	850  5450 1250 5450
-Connection ~ 1250 5450
-Wire Wire Line
-	1250 5450 2150 5450
-Connection ~ 1850 800 
-Wire Wire Line
-	1850 800  2750 800 
-Connection ~ 3900 800 
-Wire Wire Line
-	3900 800  4800 800 
-Connection ~ 4800 800 
-Wire Wire Line
-	4800 800  5900 800 
-Connection ~ 5900 800 
-Wire Wire Line
-	5900 800  6800 800 
-Connection ~ 6800 800 
-Wire Wire Line
-	6800 800  7900 800 
-Connection ~ 7900 800 
-Wire Wire Line
-	7900 800  8800 800 
-Connection ~ 8800 800 
-Wire Wire Line
-	8800 800  9950 800 
-Connection ~ 9950 800 
-Wire Wire Line
-	9950 800  10850 800 
-Connection ~ 10850 800 
-Wire Wire Line
-	10850 800  12000 800 
-Connection ~ 12000 800 
-Wire Wire Line
-	12000 800  12900 800 
-Wire Notes Line
-	3050 5900 5050 5900
-Wire Notes Line
-	5050 5900 5050 250 
-Wire Notes Line
-	5050 250  3050 250 
-Wire Notes Line
-	3050 250  3050 5900
-Wire Notes Line
-	7100 200  7100 5750
-Wire Notes Line
-	7100 5750 9050 5750
-Wire Notes Line
-	9050 5750 9050 200 
-Wire Notes Line
-	9050 200  7100 200 
-Wire Notes Line
-	11100 5800 13600 5800
 Wire Notes Line
 	13600 5800 13600 150 
 Wire Notes Line
 	13600 150  11100 150 
-Wire Notes Line
-	11100 150  11100 5800
 Wire Wire Line
 	12300 2700 12300 2850
 Wire Wire Line
@@ -888,52 +798,478 @@ Wire Wire Line
 Connection ~ 2050 3450
 Wire Wire Line
 	2050 3450 2750 3450
+$Comp
+L Device:R R?
+U 1 1 62847F9A
+P 1850 1150
+AR Path="/62847F9A" Ref="R?"  Part="1" 
+AR Path="/6283D226/62847F9A" Ref="R18"  Part="1" 
+F 0 "R18" H 1920 1196 50  0000 L CNN
+F 1 "95.3 1%" H 1920 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 1780 1150 50  0001 C CNN
+F 3 "~" H 1850 1150 50  0001 C CNN
+F 4 "C218188" H 1850 1150 50  0001 C CNN "LCSC"
+	1    1850 1150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1850 800  1850 1300
+	750  800  1850 800 
+$Comp
+L Device:R R?
+U 1 1 62854017
+P 12000 1150
+AR Path="/62854017" Ref="R?"  Part="1" 
+AR Path="/6283D226/62854017" Ref="R23"  Part="1" 
+F 0 "R23" H 12070 1196 50  0000 L CNN
+F 1 "95.3 1%" H 12070 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 11930 1150 50  0001 C CNN
+F 3 "~" H 12000 1150 50  0001 C CNN
+F 4 "C218188" H 12000 1150 50  0001 C CNN "LCSC"
+	1    12000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628594BD
+P 9950 1150
+AR Path="/628594BD" Ref="R?"  Part="1" 
+AR Path="/6283D226/628594BD" Ref="R22"  Part="1" 
+F 0 "R22" H 10020 1196 50  0000 L CNN
+F 1 "95.3 1%" H 10020 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 9880 1150 50  0001 C CNN
+F 3 "~" H 9950 1150 50  0001 C CNN
+F 4 "C218188" H 9950 1150 50  0001 C CNN "LCSC"
+	1    9950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6285E8B9
+P 7900 1150
+AR Path="/6285E8B9" Ref="R?"  Part="1" 
+AR Path="/6283D226/6285E8B9" Ref="R21"  Part="1" 
+F 0 "R21" H 7970 1196 50  0000 L CNN
+F 1 "95.3 1%" H 7970 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 7830 1150 50  0001 C CNN
+F 3 "~" H 7900 1150 50  0001 C CNN
+F 4 "C218188" H 7900 1150 50  0001 C CNN "LCSC"
+	1    7900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62863D5D
+P 5900 1150
+AR Path="/62863D5D" Ref="R?"  Part="1" 
+AR Path="/6283D226/62863D5D" Ref="R20"  Part="1" 
+F 0 "R20" H 5970 1196 50  0000 L CNN
+F 1 "95.3 1%" H 5970 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5830 1150 50  0001 C CNN
+F 3 "~" H 5900 1150 50  0001 C CNN
+F 4 "C218188" H 5900 1150 50  0001 C CNN "LCSC"
+	1    5900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6286954B
+P 3900 1150
+AR Path="/6286954B" Ref="R?"  Part="1" 
+AR Path="/6283D226/6286954B" Ref="R19"  Part="1" 
+F 0 "R19" H 3970 1196 50  0000 L CNN
+F 1 "95.3 1%" H 3970 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 3830 1150 50  0001 C CNN
+F 3 "~" H 3900 1150 50  0001 C CNN
+F 4 "C218188" H 3900 1150 50  0001 C CNN "LCSC"
+	1    3900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62887319
+P 2750 1450
+AR Path="/62887319" Ref="R?"  Part="1" 
+AR Path="/6283D226/62887319" Ref="R24"  Part="1" 
+F 0 "R24" H 2820 1496 50  0000 L CNN
+F 1 "84.5 1%" H 2820 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 2680 1450 50  0001 C CNN
+F 3 "~" H 2750 1450 50  0001 C CNN
+F 4 "C177824" H 2750 1450 50  0001 C CNN "LCSC"
+	1    2750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6288AFD9
+P 4800 1450
+AR Path="/6288AFD9" Ref="R?"  Part="1" 
+AR Path="/6283D226/6288AFD9" Ref="R25"  Part="1" 
+F 0 "R25" H 4870 1496 50  0000 L CNN
+F 1 "84.5 1%" H 4870 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 4730 1450 50  0001 C CNN
+F 3 "~" H 4800 1450 50  0001 C CNN
+F 4 "C177824" H 4800 1450 50  0001 C CNN "LCSC"
+	1    4800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6288EF01
+P 6800 1450
+AR Path="/6288EF01" Ref="R?"  Part="1" 
+AR Path="/6283D226/6288EF01" Ref="R26"  Part="1" 
+F 0 "R26" H 6870 1496 50  0000 L CNN
+F 1 "84.5 1%" H 6870 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 6730 1450 50  0001 C CNN
+F 3 "~" H 6800 1450 50  0001 C CNN
+F 4 "C177824" H 6800 1450 50  0001 C CNN "LCSC"
+	1    6800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62892889
+P 8800 1450
+AR Path="/62892889" Ref="R?"  Part="1" 
+AR Path="/6283D226/62892889" Ref="R27"  Part="1" 
+F 0 "R27" H 8870 1496 50  0000 L CNN
+F 1 "84.5 1%" H 8870 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 8730 1450 50  0001 C CNN
+F 3 "~" H 8800 1450 50  0001 C CNN
+F 4 "C177824" H 8800 1450 50  0001 C CNN "LCSC"
+	1    8800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62896503
+P 10850 1450
+AR Path="/62896503" Ref="R?"  Part="1" 
+AR Path="/6283D226/62896503" Ref="R28"  Part="1" 
+F 0 "R28" H 10920 1496 50  0000 L CNN
+F 1 "84.5 1%" H 10920 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 10780 1450 50  0001 C CNN
+F 3 "~" H 10850 1450 50  0001 C CNN
+F 4 "C177824" H 10850 1450 50  0001 C CNN "LCSC"
+	1    10850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6289A0A9
+P 12900 1450
+AR Path="/6289A0A9" Ref="R?"  Part="1" 
+AR Path="/6283D226/6289A0A9" Ref="R29"  Part="1" 
+F 0 "R29" H 12970 1496 50  0000 L CNN
+F 1 "84.5 1%" H 12970 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 12830 1450 50  0001 C CNN
+F 3 "~" H 12900 1450 50  0001 C CNN
+F 4 "C177824" H 12900 1450 50  0001 C CNN "LCSC"
+	1    12900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6289DC7F
+P 12350 4950
+AR Path="/6289DC7F" Ref="R?"  Part="1" 
+AR Path="/6283D226/6289DC7F" Ref="R41"  Part="1" 
+F 0 "R41" H 12420 4996 50  0000 L CNN
+F 1 "84.5 1%" H 12420 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 12280 4950 50  0001 C CNN
+F 3 "~" H 12350 4950 50  0001 C CNN
+F 4 "C177824" H 12350 4950 50  0001 C CNN "LCSC"
+	1    12350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628A1863
+P 11450 4950
+AR Path="/628A1863" Ref="R?"  Part="1" 
+AR Path="/6283D226/628A1863" Ref="R40"  Part="1" 
+F 0 "R40" H 11520 4996 50  0000 L CNN
+F 1 "84.5 1%" H 11520 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 11380 4950 50  0001 C CNN
+F 3 "~" H 11450 4950 50  0001 C CNN
+F 4 "C177824" H 11450 4950 50  0001 C CNN "LCSC"
+	1    11450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628A5295
+P 10300 4950
+AR Path="/628A5295" Ref="R?"  Part="1" 
+AR Path="/6283D226/628A5295" Ref="R39"  Part="1" 
+F 0 "R39" H 10370 4996 50  0000 L CNN
+F 1 "84.5 1%" H 10370 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 10230 4950 50  0001 C CNN
+F 3 "~" H 10300 4950 50  0001 C CNN
+F 4 "C177824" H 10300 4950 50  0001 C CNN "LCSC"
+	1    10300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628A8F3B
+P 9400 4950
+AR Path="/628A8F3B" Ref="R?"  Part="1" 
+AR Path="/6283D226/628A8F3B" Ref="R38"  Part="1" 
+F 0 "R38" H 9470 4996 50  0000 L CNN
+F 1 "84.5 1%" H 9470 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 9330 4950 50  0001 C CNN
+F 3 "~" H 9400 4950 50  0001 C CNN
+F 4 "C177824" H 9400 4950 50  0001 C CNN "LCSC"
+	1    9400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628ACBE3
+P 8200 4950
+AR Path="/628ACBE3" Ref="R?"  Part="1" 
+AR Path="/6283D226/628ACBE3" Ref="R37"  Part="1" 
+F 0 "R37" H 8270 4996 50  0000 L CNN
+F 1 "84.5 1%" H 8270 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 8130 4950 50  0001 C CNN
+F 3 "~" H 8200 4950 50  0001 C CNN
+F 4 "C177824" H 8200 4950 50  0001 C CNN "LCSC"
+	1    8200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628B0821
+P 7300 4950
+AR Path="/628B0821" Ref="R?"  Part="1" 
+AR Path="/6283D226/628B0821" Ref="R36"  Part="1" 
+F 0 "R36" H 7370 4996 50  0000 L CNN
+F 1 "84.5 1%" H 7370 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 7230 4950 50  0001 C CNN
+F 3 "~" H 7300 4950 50  0001 C CNN
+F 4 "C177824" H 7300 4950 50  0001 C CNN "LCSC"
+	1    7300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628B424F
+P 6250 4950
+AR Path="/628B424F" Ref="R?"  Part="1" 
+AR Path="/6283D226/628B424F" Ref="R35"  Part="1" 
+F 0 "R35" H 6320 4996 50  0000 L CNN
+F 1 "84.5 1%" H 6320 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 6180 4950 50  0001 C CNN
+F 3 "~" H 6250 4950 50  0001 C CNN
+F 4 "C177824" H 6250 4950 50  0001 C CNN "LCSC"
+	1    6250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628B7D2B
+P 5350 4950
+AR Path="/628B7D2B" Ref="R?"  Part="1" 
+AR Path="/6283D226/628B7D2B" Ref="R34"  Part="1" 
+F 0 "R34" H 5420 4996 50  0000 L CNN
+F 1 "84.5 1%" H 5420 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5280 4950 50  0001 C CNN
+F 3 "~" H 5350 4950 50  0001 C CNN
+F 4 "C177824" H 5350 4950 50  0001 C CNN "LCSC"
+	1    5350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628BBA3F
+P 4250 4950
+AR Path="/628BBA3F" Ref="R?"  Part="1" 
+AR Path="/6283D226/628BBA3F" Ref="R33"  Part="1" 
+F 0 "R33" H 4320 4996 50  0000 L CNN
+F 1 "84.5 1%" H 4320 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 4180 4950 50  0001 C CNN
+F 3 "~" H 4250 4950 50  0001 C CNN
+F 4 "C177824" H 4250 4950 50  0001 C CNN "LCSC"
+	1    4250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628BF51D
+P 3350 4950
+AR Path="/628BF51D" Ref="R?"  Part="1" 
+AR Path="/6283D226/628BF51D" Ref="R32"  Part="1" 
+F 0 "R32" H 3420 4996 50  0000 L CNN
+F 1 "84.5 1%" H 3420 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 3280 4950 50  0001 C CNN
+F 3 "~" H 3350 4950 50  0001 C CNN
+F 4 "C177824" H 3350 4950 50  0001 C CNN "LCSC"
+	1    3350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628C3077
+P 2150 4950
+AR Path="/628C3077" Ref="R?"  Part="1" 
+AR Path="/6283D226/628C3077" Ref="R31"  Part="1" 
+F 0 "R31" H 2220 4996 50  0000 L CNN
+F 1 "84.5 1%" H 2220 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 2080 4950 50  0001 C CNN
+F 3 "~" H 2150 4950 50  0001 C CNN
+F 4 "C177824" H 2150 4950 50  0001 C CNN "LCSC"
+	1    2150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628C6BF9
+P 1250 4950
+AR Path="/628C6BF9" Ref="R?"  Part="1" 
+AR Path="/6283D226/628C6BF9" Ref="R30"  Part="1" 
+F 0 "R30" H 1320 4996 50  0000 L CNN
+F 1 "84.5 1%" H 1320 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 1180 4950 50  0001 C CNN
+F 3 "~" H 1250 4950 50  0001 C CNN
+F 4 "C177824" H 1250 4950 50  0001 C CNN "LCSC"
+	1    1250 4950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2750 800  2750 1600
+	1850 800  1850 1000
+Connection ~ 1850 800 
 Wire Wire Line
-	3900 800  3900 1300
+	1850 800  2750 800 
 Wire Wire Line
-	4800 800  4800 1600
+	2750 800  2750 1300
+Connection ~ 2750 800 
 Wire Wire Line
-	5900 800  5900 1300
+	2750 800  3900 800 
 Wire Wire Line
-	6800 800  6800 1600
+	3900 1000 3900 800 
+Connection ~ 3900 800 
 Wire Wire Line
-	7900 800  7900 1300
+	4800 1300 4800 800 
 Wire Wire Line
-	8800 800  8800 1600
+	3900 800  4800 800 
+Connection ~ 4800 800 
 Wire Wire Line
-	9950 800  9950 1300
+	4800 800  5900 800 
 Wire Wire Line
-	10850 800  10850 1600
+	5900 800  5900 1000
+Connection ~ 5900 800 
 Wire Wire Line
-	12000 800  12000 1300
+	5900 800  6800 800 
 Wire Wire Line
-	12900 800  12900 1600
+	6800 1300 6800 800 
+Connection ~ 6800 800 
 Wire Wire Line
-	12350 4800 12350 5450
+	6800 800  7900 800 
 Wire Wire Line
-	11450 4800 11450 5450
+	7900 1000 7900 800 
+Connection ~ 7900 800 
 Wire Wire Line
-	10300 4800 10300 5450
+	7900 800  8800 800 
 Wire Wire Line
-	9400 4800 9400 5450
+	8800 800  8800 1300
+Connection ~ 8800 800 
 Wire Wire Line
-	8200 4800 8200 5450
+	8800 800  9950 800 
 Wire Wire Line
-	7300 4800 7300 5450
+	9950 1000 9950 800 
+Connection ~ 9950 800 
 Wire Wire Line
-	6250 4800 6250 5450
+	9950 800  10850 800 
 Wire Wire Line
-	5350 4800 5350 5450
+	10850 800  10850 1300
+Connection ~ 10850 800 
 Wire Wire Line
-	4250 4800 4250 5450
+	10850 800  12000 800 
 Wire Wire Line
-	3350 4800 3350 5450
+	12000 800  12000 1000
+Connection ~ 12000 800 
 Wire Wire Line
-	2150 4800 2150 5450
+	12000 800  12900 800 
 Wire Wire Line
-	1250 4800 1250 5450
+	12900 1300 12900 800 
+Wire Wire Line
+	12350 5100 12350 5450
+Wire Wire Line
+	11450 5100 11450 5450
+Connection ~ 11450 5450
+Wire Wire Line
+	11450 5450 12350 5450
+Wire Wire Line
+	10300 5100 10300 5450
+Connection ~ 10300 5450
+Wire Wire Line
+	10300 5450 11450 5450
+Wire Wire Line
+	9400 5100 9400 5450
+Connection ~ 9400 5450
+Wire Wire Line
+	9400 5450 10300 5450
+Wire Wire Line
+	8200 5100 8200 5450
+Connection ~ 8200 5450
+Wire Wire Line
+	8200 5450 9400 5450
+Wire Wire Line
+	7300 5100 7300 5450
+Connection ~ 7300 5450
+Wire Wire Line
+	7300 5450 8200 5450
+Wire Wire Line
+	6250 5100 6250 5450
+Connection ~ 6250 5450
+Wire Wire Line
+	6250 5450 7300 5450
+Wire Wire Line
+	5350 5100 5350 5450
+Connection ~ 5350 5450
+Wire Wire Line
+	5350 5450 6250 5450
+Wire Wire Line
+	4250 5100 4250 5450
+Connection ~ 4250 5450
+Wire Wire Line
+	4250 5450 5350 5450
+Wire Wire Line
+	1250 5100 1250 5450
+Wire Wire Line
+	850  5450 1250 5450
+Connection ~ 1250 5450
+Wire Wire Line
+	2150 5100 2150 5450
+Wire Wire Line
+	1250 5450 2150 5450
+Connection ~ 2150 5450
+Wire Wire Line
+	3350 5100 3350 5450
+Wire Wire Line
+	2150 5450 3350 5450
+Connection ~ 3350 5450
+Wire Wire Line
+	3350 5450 4250 5450
+Wire Notes Line
+	3050 5900 3050 250 
+Wire Notes Line
+	3050 250  5050 250 
+Wire Notes Line
+	5050 250  5050 5900
+Wire Notes Line
+	3050 5900 5050 5900
+Wire Notes Line
+	7100 5750 7100 200 
+Wire Notes Line
+	7100 200  9050 200 
+Wire Notes Line
+	9050 200  9050 5750
+Wire Notes Line
+	7100 5750 9050 5750
+Wire Notes Line
+	11100 150  11100 5800
+Wire Notes Line
+	11100 5800 13600 5800
 $EndSCHEMATC
