@@ -4,7 +4,7 @@ Comment,Designator,Footprint,LCSC
 "Conn_01x04","J1,J6","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","C371571"
 "DB9_Female_MountingHoles","J2","0_Resistor_02:DSUB-TH_DMR-9S","C141882"
 "Conn_Coaxial","J3","Connector_Coaxial:SMA_Amphenol_901-144_Vertical",""
-"Conn_01x01_Female","J4,J5","Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal",""
+"Conn_01x01_Female","J5","Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal",""
 "Jumper","JP1","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
 "AW9523BTQR","M1","0_Resistor_02:TQFN-24_L4.0-W4.0-P0.50-TL-EP","C148077"
 "4.7K","R1,R2,R3","Resistor_SMD:R_0805_2012Metric","C17673"
