@@ -471,17 +471,6 @@ Wire Wire Line
 Connection ~ 2150 6600
 Wire Wire Line
 	2150 6600 2750 6600
-Wire Wire Line
-	7900 700  6550 700 
-Connection ~ 6550 700 
-Wire Wire Line
-	1700 700  3700 700 
-Connection ~ 5100 700 
-Wire Wire Line
-	5100 700  6550 700 
-Connection ~ 3700 700 
-Wire Wire Line
-	3700 700  5100 700 
 $Comp
 L power:+3.3V #PWR01
 U 1 1 6280D88E
@@ -578,12 +567,6 @@ F 3 "" H 2100 5200 50  0001 C CNN
 	1    2100 5200
 	-1   0    0    1   
 $EndComp
-Connection ~ 4500 5500
-Wire Wire Line
-	4500 5500 5950 5500
-Connection ~ 5950 5500
-Wire Wire Line
-	5950 5500 7300 5500
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 627E1405
@@ -761,27 +744,6 @@ F 3 "" H 1800 5900 50  0001 C CNN
 	1    1800 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 4750 7300 5500
-Wire Wire Line
-	5950 4850 5950 5500
-Wire Wire Line
-	4500 4800 4500 5500
-Wire Wire Line
-	2100 5500 3100 5500
-Wire Wire Line
-	3100 5100 3100 5500
-Connection ~ 3100 5500
-Wire Wire Line
-	3100 5500 4500 5500
-Wire Wire Line
-	7900 700  7900 1500
-Wire Wire Line
-	6550 700  6550 1600
-Wire Wire Line
-	5100 700  5100 1700
-Wire Wire Line
-	3700 700  3700 1350
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 628F1540
@@ -835,4 +797,138 @@ F 3 "" H 3250 7400 50  0001 C CNN
 	1    3250 7400
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2100 5500 3100 5500
+Wire Wire Line
+	1700 700  3700 700 
+$Comp
+L Device:R R10
+U 1 1 6283AB55
+P 3700 1200
+F 0 "R10" H 3770 1246 50  0000 L CNN
+F 1 "95.3 1%" H 3770 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 3630 1200 50  0001 C CNN
+F 3 "~" H 3700 1200 50  0001 C CNN
+F 4 "C218188" H 3700 1200 50  0001 C CNN "LCSC"
+	1    3700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6283B6FF
+P 5100 1550
+F 0 "R13" H 5170 1596 50  0000 L CNN
+F 1 "84.5 1%" H 5170 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5030 1550 50  0001 C CNN
+F 3 "~" H 5100 1550 50  0001 C CNN
+F 4 "C177824" H 5100 1550 50  0001 C CNN "LCSC"
+	1    5100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 6283E3B1
+P 3100 5250
+F 0 "R17" H 3170 5296 50  0000 L CNN
+F 1 "95.3 1%" H 3170 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 3030 5250 50  0001 C CNN
+F 3 "~" H 3100 5250 50  0001 C CNN
+F 4 "C218188" H 3100 5250 50  0001 C CNN "LCSC"
+	1    3100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 6287964B
+P 6550 1450
+F 0 "R12" H 6620 1496 50  0000 L CNN
+F 1 "84.5 1%" H 6620 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 6480 1450 50  0001 C CNN
+F 3 "~" H 6550 1450 50  0001 C CNN
+F 4 "C177824" H 6550 1450 50  0001 C CNN "LCSC"
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 6287B511
+P 7900 1350
+F 0 "R11" H 7970 1396 50  0000 L CNN
+F 1 "84.5 1%" H 7970 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 7830 1350 50  0001 C CNN
+F 3 "~" H 7900 1350 50  0001 C CNN
+F 4 "C177824" H 7900 1350 50  0001 C CNN "LCSC"
+	1    7900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6287D697
+P 4500 4950
+F 0 "R15" H 4570 4996 50  0000 L CNN
+F 1 "84.5 1%" H 4570 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 4430 4950 50  0001 C CNN
+F 3 "~" H 4500 4950 50  0001 C CNN
+F 4 "C177824" H 4500 4950 50  0001 C CNN "LCSC"
+	1    4500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6287F5DB
+P 5950 5000
+F 0 "R16" H 6020 5046 50  0000 L CNN
+F 1 "84.5 1%" H 6020 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5880 5000 50  0001 C CNN
+F 3 "~" H 5950 5000 50  0001 C CNN
+F 4 "C177824" H 5950 5000 50  0001 C CNN "LCSC"
+	1    5950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 628831ED
+P 7300 4900
+F 0 "R14" H 7370 4946 50  0000 L CNN
+F 1 "84.5 1%" H 7370 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 7230 4900 50  0001 C CNN
+F 3 "~" H 7300 4900 50  0001 C CNN
+F 4 "C177824" H 7300 4900 50  0001 C CNN "LCSC"
+	1    7300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5050 7300 5500
+Wire Wire Line
+	5950 5150 5950 5500
+Connection ~ 5950 5500
+Wire Wire Line
+	5950 5500 7300 5500
+Wire Wire Line
+	4500 5100 4500 5500
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 5950 5500
+Wire Wire Line
+	3100 5400 3100 5500
+Connection ~ 3100 5500
+Wire Wire Line
+	3100 5500 4500 5500
+Connection ~ 3700 700 
+Wire Wire Line
+	3700 700  5100 700 
+Wire Wire Line
+	5100 700  5100 1400
+Connection ~ 5100 700 
+Wire Wire Line
+	5100 700  6550 700 
+Wire Wire Line
+	6550 700  6550 1300
+Connection ~ 6550 700 
+Wire Wire Line
+	6550 700  7900 700 
+Wire Wire Line
+	7900 1200 7900 700 
+Wire Wire Line
+	3700 700  3700 1050
 $EndSCHEMATC

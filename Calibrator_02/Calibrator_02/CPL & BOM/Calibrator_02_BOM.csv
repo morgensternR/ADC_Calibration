@@ -8,6 +8,8 @@ Comment,Designator,Footprint,LCSC
 "Jumper","JP1","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
 "AW9523BTQR","M1","0_Resistor_02:TQFN-24_L4.0-W4.0-P0.50-TL-EP","C148077"
 "4.7K","R1,R2,R3","Resistor_SMD:R_0805_2012Metric","C17673"
+"95.3 1%","R10,R17,R18,R19,R20,R21,R22,R23","Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder","C218188"
+"84.5 1%","R11,R12,R13,R14,R15,R16,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41","Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder","C177824"
 "120K_0.1%","R4","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C136959"
 "140K_0.1%","R5","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C326761"
 "160K_0.1%","R6","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C473318"
