@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Cir\Documents\GitHub\CryoChamberPCBs\Resistor_Cali\Calibrator_02\Calibrator_02\Calibrator_02.sch)
-    (date "5/17/2022 9:37:57 AM")
+    (date "5/18/2022 9:55:10 AM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -214,7 +214,7 @@
       (tstamp 628F1540))
     (comp (ref R10)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -223,7 +223,7 @@
       (tstamp 6283AB55))
     (comp (ref R13)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -232,7 +232,7 @@
       (tstamp 6283B6FF))
     (comp (ref R17)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -241,7 +241,7 @@
       (tstamp 6283E3B1))
     (comp (ref R12)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -250,7 +250,7 @@
       (tstamp 6287964B))
     (comp (ref R11)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -259,7 +259,7 @@
       (tstamp 6287B511))
     (comp (ref R15)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -268,7 +268,7 @@
       (tstamp 6287D697))
     (comp (ref R16)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -277,7 +277,7 @@
       (tstamp 6287F5DB))
     (comp (ref R14)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -639,7 +639,7 @@
       (tstamp 629D9115))
     (comp (ref R18)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -648,7 +648,7 @@
       (tstamp 62847F9A))
     (comp (ref R23)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -657,7 +657,7 @@
       (tstamp 62854017))
     (comp (ref R22)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -666,7 +666,7 @@
       (tstamp 628594BD))
     (comp (ref R21)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -675,7 +675,7 @@
       (tstamp 6285E8B9))
     (comp (ref R20)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -684,7 +684,7 @@
       (tstamp 62863D5D))
     (comp (ref R19)
       (value "95.3 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C218188))
@@ -693,7 +693,7 @@
       (tstamp 6286954B))
     (comp (ref R24)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -702,7 +702,7 @@
       (tstamp 62887319))
     (comp (ref R25)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -711,7 +711,7 @@
       (tstamp 6288AFD9))
     (comp (ref R26)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -720,7 +720,7 @@
       (tstamp 6288EF01))
     (comp (ref R27)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -729,7 +729,7 @@
       (tstamp 62892889))
     (comp (ref R28)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -738,7 +738,7 @@
       (tstamp 62896503))
     (comp (ref R29)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -747,7 +747,7 @@
       (tstamp 6289A0A9))
     (comp (ref R41)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -756,7 +756,7 @@
       (tstamp 6289DC7F))
     (comp (ref R40)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -765,7 +765,7 @@
       (tstamp 628A1863))
     (comp (ref R39)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -774,7 +774,7 @@
       (tstamp 628A5295))
     (comp (ref R38)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -783,7 +783,7 @@
       (tstamp 628A8F3B))
     (comp (ref R37)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -792,7 +792,7 @@
       (tstamp 628ACBE3))
     (comp (ref R36)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -801,7 +801,7 @@
       (tstamp 628B0821))
     (comp (ref R35)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -810,7 +810,7 @@
       (tstamp 628B424F))
     (comp (ref R34)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -819,7 +819,7 @@
       (tstamp 628B7D2B))
     (comp (ref R33)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -828,7 +828,7 @@
       (tstamp 628BBA3F))
     (comp (ref R32)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -837,7 +837,7 @@
       (tstamp 628BF51D))
     (comp (ref R31)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
@@ -846,7 +846,7 @@
       (tstamp 628C3077))
     (comp (ref R30)
       (value "84.5 1%")
-      (footprint Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (datasheet ~)
       (fields
         (field (name LCSC) C177824))
