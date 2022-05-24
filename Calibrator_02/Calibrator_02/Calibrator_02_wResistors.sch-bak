@@ -707,6 +707,8 @@ Wire Wire Line
 	1800 5900 1800 6500
 Wire Wire Line
 	1800 6500 2750 6500
+Wire Wire Line
+	2100 5500 4500 5500
 $Comp
 L Device:R R1
 U 1 1 628D026C
@@ -901,9 +903,4 @@ F 4 "C177824" H 4500 4950 50  0001 C CNN "LCSC"
 	1    4500 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 5500 3100 5500
-Connection ~ 3100 5500
-Wire Wire Line
-	3100 5500 4500 5500
 $EndSCHEMATC
