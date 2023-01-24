@@ -102,8 +102,8 @@ class ADC:
         #self.Reset()
         self.writereg(0, 0x60)  #Measure Voltge through AIN2 and AIN3
         self.writereg(1, 0x08)  #Set Ref Voltage
-        self.writereg(2, 0x01)  # Set IDAC1 to 10uA
-        self.writereg(3, 0x20)  # Enable IDAC to AIN0
+        self.writereg(2, 0x00)  # Set IDAC1 to 10uA
+        self.writereg(3, 0x00)  # Enable IDAC to AIN0
 
     def temperaturesense(self, x):
         init_value = self.readreg(1)

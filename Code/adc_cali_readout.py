@@ -24,7 +24,7 @@ diode0.reset()
 time.sleep(500e-6)
 
 #Setup ADC registers
-diode0.set_10ua()
+#diode0.set_10ua()
 diode0.start()
 
 
@@ -40,7 +40,7 @@ def take_data():
     print(data_list)
     sw_calibrator.current_off()
     return sum(data_list)/len(data_list)
-
+'''
 def reading():
     output = []
     sw_calibrator.on_100k()
@@ -62,9 +62,18 @@ def reading():
     output.append(take_data())
     
     return print(output)
+'''
+diode0.writereg(0, 0x90)
+diode0.writereg(1, 0x08)
+diode0.writereg(2, 0x01)
+diode0.writereg(3, 0x40)
+diode0.start()
+def reading():
 
+    diode0.drdy()
+    Res = diode0.conv_read_data()
 
-
+    return Res
 
 
     

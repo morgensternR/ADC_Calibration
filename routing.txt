@@ -1,0 +1,9 @@
+i_00, i_01 Turns on top path	P0_0, P0_01
+i_02, i_03 Turns on bottom path	P0_2, P0_3
+
+i_04,  i_05 turns on 100K	P0_4, P0_5
+i_06, I_07 turns on 120k	P0_6, P0_7
+i_10, I_11 turns on 140k	P1_0, P1_1
+i_12, I_13 turns on 160k	P1_2, P1_3
+i_14, i_15 turns on 180k	P1_4, P1_5
+i_16, i_17 turns on 200k	P1_6, P1_7
