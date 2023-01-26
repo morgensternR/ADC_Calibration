@@ -82,7 +82,7 @@ class MCP3421:
         
     def read_adc(self):
         data = bytearray(self.data_size)
-        
+        self.drdy() #Determines when to read depending on data Rdy Bit
         self.i2c.readfrom_into(self.addr, data)
         #Int from bytes can convert sign for multiples of bytes but not bits.Ex Can use Signed True on 8,16,24 bits (1,2,3 bytes)
         result = int.from_bytes(data[:self.data_size],'big')
@@ -97,10 +97,10 @@ class MCP3421:
         return result 
 
 i2c = I2C(1, scl=Pin(23, Pin.PULL_UP), sda=Pin(22, Pin.PULL_UP))
-dev = MCP3421(i2c, sampling = 2, conversion = 1, gain = 0)
-'''
+dev = MCP3421(i2c, sampling = 3, conversion = 1, gain = 0)
+
 while True:
-    print(bin(dev.read_config()))
-    time.sleep(0.01)
-'''
+    print(dev.read_adc_v())
+    time.sleep(0.1)
+
 
