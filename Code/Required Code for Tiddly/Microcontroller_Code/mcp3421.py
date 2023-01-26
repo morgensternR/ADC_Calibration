@@ -43,22 +43,7 @@ class MCP3421:
         self.register.gain = gain
         self.register.mode = conversion
         self.register.sampling = sampling
-        print(self.register_buffer[0], bytes([self.register_buffer[0]]))
-        '''
-        self.conversion = conversion
-        self.gain = gain
-        self.gain_dict = {
-            1 : 0,
-            2 : 1,
-            4 : 2,
-            8 : 3}
         
-        self.bit_dict = {
-            12 : 0,
-            14 : 1,
-            16 : 2,
-            18 : 3}
-        '''
         self.set_config()
         self.read_config()
         
@@ -91,13 +76,14 @@ class MCP3421:
             result = result - ( 1 << self.bits )
         
         return result
+    
     def read_adc_v(self):
         adc_int = self.read_adc()
-        result = (adc_int - self.offset)/self.slope
+        result = (adc_int - self.offset)/(self.slope * (2**self.register.gain))
         return result 
 
 i2c = I2C(1, scl=Pin(23, Pin.PULL_UP), sda=Pin(22, Pin.PULL_UP))
-dev = MCP3421(i2c, sampling = 3, conversion = 1, gain = 0)
+dev = MCP3421(i2c, sampling = 2, conversion = 1, gain = 0)
 
 while True:
     print(dev.read_adc_v())
