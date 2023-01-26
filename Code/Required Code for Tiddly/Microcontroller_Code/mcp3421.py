@@ -80,13 +80,15 @@ class MCP3421:
     def read_adc_v(self):
         adc_int = self.read_adc()
         result = (adc_int - self.offset)/(self.slope * (2**self.register.gain))
-        return result 
-
+        return result
+    
+#Code below is for testing
+'''
 i2c = I2C(1, scl=Pin(23, Pin.PULL_UP), sda=Pin(22, Pin.PULL_UP))
 dev = MCP3421(i2c, sampling = 2, conversion = 1, gain = 0)
 
 while True:
     print(dev.read_adc_v())
-
+'''
 
 
