@@ -101,6 +101,6 @@ dev = MCP3421(i2c, sampling = 3, conversion = 1, gain = 0)
 
 while True:
     print(dev.read_adc_v())
-    time.sleep(0.1)
+
 
 
