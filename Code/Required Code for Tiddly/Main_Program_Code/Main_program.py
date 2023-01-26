@@ -55,7 +55,6 @@ def Calibrate(dmm_short0, dmm_short1, adc_short_int, adc_short_v):
         for i in range(5):
                     port.write(b'read\n')
                     print(port.readlines())
-                    time.sleep(0.1)
         port.write(b'read\n')
         line = port.readlines()
         adc.append([line[0].decode().strip(), line[1].decode().strip()])
@@ -76,4 +75,4 @@ def Calibrate(dmm_short0, dmm_short1, adc_short_int, adc_short_v):
 
     for i in range(len(dmm_c)):
         post_diff.append(round(dmm_c[i]- voltage[i], 7)*1e3)
-    return lin_info, adc_array, pre_diff, post_diff, dmm_c, voltage
+    return adc_array, dmm_0,dmm_1, dmm_c, pre_diff, post_diff, voltage, lin_info
