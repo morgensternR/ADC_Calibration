@@ -34,12 +34,12 @@ dmm_1 = DMM measurement of short or resistor reversed polarity
 
 dmm_c = corrected DMM measurement without offsets ( abs(dmm_0) + abs(dmm_1) ) / 2 = dmm_c
 
-lin_info = Linear fit to X axis being the dmm_c measurements, and Y axis is adc_array[adc integer]. We want the ADC's integer output to match the correct voltage
+lin_info = Linear fit to X axis being the dmm_c measurements, and Y axis is adc_array[adc integer]. We want the ADC's integer output to match the correct voltage.
 	Contains slope and offset
 
 voltage = slope and offset taken from lin_info using y = mx + b, adc_integer = adc_voltage_output * slope + offset. adc_voltage_output = (adc_int - offset)/slope
 
-pre_diff = dmm_c - adc_array[voltage output], to see the difference apre corrected
+pre_diff = dmm_c - adc_array[voltage output], to see the difference a pre corrected
 
 post_diff = dmm_c - voltage, to see the difference post corrected
 
